@@ -10,13 +10,13 @@
 <body>
   <h1>あなたの事を教えてアンケート！</h1>
   <p>
-  Q１.ECCコンピューター専門学校に入った理由は？（入学、入社）
+  <b> Q１.ECCコンピューター専門学校に入った理由は？（入学、入社）</b>
   </p>
     <form action="example.php" method="post" name="contact-form">
         <textarea name="message" placeholder="ex)オープンキャンパスが良かった" cols="60" rows="8"></textarea>
     </form>
   <p>
-  Q２.ECCは楽しいですか？？
+ <b> Q２.ECCは楽しいですか？？</b>
   </p>
     <form action="exaple.php" method="post" name="contact-form">
       <input type="radio"name="thoughts" value="とてもそう思う" id="とてもそう思う"><label for="とてもそう思う">とてもそう思う</label>
@@ -25,7 +25,7 @@
       <input type="radio"name="thoughts" value="全く思わない" id="全く思わない"><label for="全く思わない">全く思わない</label>
     </from>
 <p>
-Q３.どのようにして本校を知りましたか？（※複数選択可）
+<b>Q３.どのようにして本校を知りましたか？</b>（※複数選択可）
 </p>
     <form action="exaple.php" method="post" name="contact-form">
       <input type="checkbox"name="Choices" value="友人や先生などから聞いた" id="友人や先生などから聞いた"><label for="友人や先生などから聞いた">友人や先生などから聞いた</label>
@@ -34,9 +34,44 @@ Q３.どのようにして本校を知りましたか？（※複数選択可）
       <input type="checkbox"name="Choices" value="その他" id="その他"><label for="その他">その他</label>
     </form>
 <p>
-Q４.あなたが好きな食べ物は？？
+<b>Q４.あなたの誕生日は何月ですか？</b>
 </p>
     <form action="example.php" method="post" name="contact-from">
 
+        <select name="birth day">
+            <option value="１月">１月</option>
+            <option value="２月">２月</option>
+            <option value="３月">３月</option>
+            <option value="４月">４月</option>
+            <option value="５月">５月</option>
+            <option value="６月">６月</option>
+            <option value="７月">７月</option>
+            <option value="８月">８月</option>
+            <option value="９月">９月</option>
+            <option value="１０月">１０月</option>
+            <option value="１１月">１１月</option>
+            <option value="１２月">１２月</option>
+        </select>
+<p>
+<b>Q５.あなたの好きな食べ物は何ですか？</b>（※複数選択可）
+</p>
+    <form action="exaple.php" method="post" name="contact-form">
+      <input type="checkbox"name="food" value="肉系" id="肉系"><label for="肉系">肉系</label>
+      <input type="checkbox"name="food" value="魚系" id="魚系"><label for="魚系">魚系</label>
+      <input type="checkbox"name="food" value="パスタ" id="パスタ"><label for="パスタ">パスタ</label>
+      <input type="checkbox"name="food" value="ラーメン" id="ラーメン"><label for="ラーメン">ラーメン</label>
+      <input type="checkbox"name="food" value="その他" id="その他"><label for="その他">その他</label>
+    </form>
+<p>
+&#9733;ちなみに僕の好きな食べ物は…
+</p>
+    <ol type="1" start="1">
+        <li>パスタ</li>
+        <li>ラーメン</li>
+        <li>寿司</li>
+ </ol>
+  <form action="mailTo:test@ecc.ac.jp"method="post" name="contact-form">
+    <input type="submit"value="送信する">
+    </form>
 </body>
 </html>
