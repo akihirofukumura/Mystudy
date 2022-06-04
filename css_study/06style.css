@@ -8,3 +8,6 @@ h2 {
 p {
     font-family: "ヒラギノ丸ゴ pro w4","Hiragino Maru Gothic Pro", sans-serif;
 }
+#box p{
+        font-weight: bold;
+}
