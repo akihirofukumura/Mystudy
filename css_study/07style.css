@@ -1,0 +1,10 @@
+@charset "UTF-8";
+h1 {
+    font-family: serif;
+}
+h2 {
+    font-family: "ゴシック体", "Gothictai", cursive, sans-serif;
+}
+p {
+   line-height: 1.7; 
+}
