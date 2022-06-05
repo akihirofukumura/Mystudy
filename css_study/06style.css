@@ -5,9 +5,6 @@ h1 {
 h2 {
     font-family: "ゴシック体", "Gothictai", cursive, sans-serif;
 }
-p {
-    font-family: "ヒラギノ丸ゴ pro w4","Hiragino Maru Gothic Pro", sans-serif;
-}
-#box p{
-        font-weight: bold;
+div p{
+    font-weight: bold;
 }
