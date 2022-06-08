@@ -1,10 +1,13 @@
 @charset "UTF-8";
 h1 {
     font-family: serif;
+    color: #0bd;
 }
 h2 {
     font-family: "ゴシック体", "Gothictai", cursive, sans-serif;
+    color: navy;
 }
 p {
     text-align: justify; 
+    color: rgba(10, 130, 165, .5);
 }
