@@ -2,6 +2,7 @@
 h1 {
     font-family: serif;
     color: #0bd;
+    background-color: #faa;
 }
 h2 {
     font-family: "ゴシック体", "Gothictai", cursive, sans-serif;
@@ -10,4 +11,7 @@ h2 {
 p {
     text-align: justify; 
     color: rgba(10, 130, 165, .5);
+}
+body {
+    background-color: #fee;
 }
