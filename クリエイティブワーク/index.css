@@ -1,42 +1,82 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.main{
+
+.main {
+    /* background-color: #f00; */
+    background-image: url(../クリエイティブワーク/images/_talking.png);
+    background-size: cover;
     position: relative;
     width: 100%;
-    height: 800px;
+    height: 770px;
     overflow: hidden;
-    border: solid 1px tomato;
+    /* border: solid 1px tomato; */
 }
 
-.mainBackImg{
+.mainBackImg {
     position: absolute;
     width: 100%;
     z-index: 10;
 }
-.mainBackImg img{
+
+.mainBackImg img {
     width: 100%;
 }
 
-.mainLogoWrap{
+.mainLogoWrap {
     position: absolute;
     text-align: center;
     z-index: 20;
     /* border: solid 5px skyblue; */
-    width: 500px;
-    height: 200px;
-    left:0;
-    right:0;
-    top:0;
+    width: 600px;
+    height: 170px;
+    left: 0;
+    right: 0;
+    top: 0;
     bottom: 0;
     margin: auto;
 }
 
-.mainLogoWrap img{
+.mainLogoWrap img {
     width: 100%;
+    text-align: center;
+    animation-name:fadeinAnime;
+    animation-fill-mode:backwards;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+    animation-delay: 1s;
+    animation-direction:normal;
+}
+@keyframes fadeinAnime{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
 }
 
-.mainText{
+.mainText {
     position: absolute;
+    /* border: solid 1px tomato; */
+    z-index: 30;
+    /* margin-top: 530px; */
+    /* margin-left: 68px; */
+    bottom: 0;
+    left: 60px;
+    font-family: "A P-OTF 凸版文久見出ゴ Std",sans-serif;
+    font-size: 38px;
+    letter-spacing: 20px;
+}
+.Mainbackground{
+    background-color: #1A8991;
+}
+.Subbackground{
+    background-color:#CF632B;
+    /* border: solid 1px skyblue; */
+    width: 880px;
+    margin-left: 280px;
 }
