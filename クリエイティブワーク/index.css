@@ -41,13 +41,15 @@
 .mainLogoWrap img {
     width: 100%;
     text-align: center;
-    animation-name:fadeinAnime;
-    animation-fill-mode:backwards;
+    opacity: 0;
+    animation: fadeinAnime 5s forwards ease;
+    /* animation-name:fadeinAnime;
+    animation-fill-mode:forwards;
     animation-duration:5s;
-    animation-iteration-count:infinite;
+    animation-iteration-count:1;
     animation-timing-function:ease;
     animation-delay: 1s;
-    animation-direction:normal;
+    animation-direction:normal; */
 }
 @keyframes fadeinAnime{
     from{
@@ -84,4 +86,10 @@
     background-color: #0A2C43;
     width: 880px;
     margin-left: 280px;
+}
+.headline{
+    color: #B39B6F;
+    clear: both;
+    /* border: solid 1px skyblue; */
+    padding-left: 100px;
 }
