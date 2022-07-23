@@ -121,6 +121,7 @@
     color: #ffffff;
     margin-top: 85px;
     margin-left: 112px;
+    text-decoration: underline;
 }
 
 .Textcoffee {
@@ -160,6 +161,7 @@
     color: #ffffff;
     margin-top: 25px;
     margin-left: 75px;
+    text-decoration: underline;
 }
 
 .Texthamburger {
@@ -175,6 +177,12 @@
 }
 
 .strong {
-    font-size: 30px;
+    font-size: 35px;
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+    color: #ffffff;
+}
+.strongWrap{
+    font-size: 40px;
+    font-family: "凸版文久見出し明朝","A-OTF 太ゴB101 Pr6", sans-serif;
+    color: saddlebrown;
 }
