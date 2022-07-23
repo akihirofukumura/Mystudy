@@ -99,7 +99,7 @@
 .Imgcoffee{
     /* border: skyblue 1px solid; */
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 70px;
     }
 .coffee{
     /* border: solid 1px skyblue; */
@@ -111,7 +111,7 @@
     font-size: 30px;
     font-family: Silom,sans-serif;
     color: #ffffff;
-    margin-top: 40px;
+    margin-top: 85px;
     margin-left: 112px;
 }
 .Textcoffee{
@@ -124,3 +124,34 @@
     letter-spacing: 3px;
     margin-top: 20px;
     }
+.Imghamburger{
+    margin-left: 30px;
+    margin-top: 150px;
+}
+.hamburger{
+    /* border: solid 1px skyblue; */
+    float: right;
+    margin-right: 30px;
+}
+.headlinehamburger{
+    font-size: 30px;
+    font-family: Silom,sans-serif;
+    color: #ffffff;
+    margin-top: 170px;
+    margin-left: 75px;
+}
+.Texthamburger{
+    /* border: skyblue 1px solid; */
+    font-size: 18px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+    color: #ffffff;
+    line-height: 85px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 20px;
+
+}
+.strong{
+    font-size: 30px;
+    font-family: "A-OTF 太ゴB101 Pr6",sans-serif;
+}
