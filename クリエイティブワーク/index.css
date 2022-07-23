@@ -94,11 +94,19 @@
     text-align: center;
     font-size: 40px;
     font-family: Silom,sans-serif;
-    padding-top: 10px;
+    padding-top: 20px;
 }
-.coffee{
+.Imgcoffee{
     /* border: skyblue 1px solid; */
     margin-left: 30px;
-    margin-top: 20px;
-    clear: both;
+    margin-top: 30px;
     }
+.coffee{
+    float: right;
+    /* border: solid 1px skyblue; */
+    margin-right: 160px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Silom,sans-serif;
+    color: #FFFFFF;
+}
