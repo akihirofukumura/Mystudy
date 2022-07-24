@@ -187,14 +187,7 @@
     font-family: "凸版文久見出し明朝", "A-OTF 太ゴB101 Pr6", sans-serif;
     color: saddlebrown;
 }
-.v_line_fix {
-    clear: both;
-    /* border: solid 1px #ffffff; */
-    margin-left: 250px;
-    width: 5px;
-    height: 150px;
-    background-color: #ffffff;
-}
+
 .Imgconversation{
     margin-left: 30px;
     margin-top: 5px;
@@ -223,4 +216,57 @@
     text-align: center;
     letter-spacing: 3px;
     margin-top: 20px;
+}
+.Imghandshake{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.handshake{
+        /* border: solid 1px skyblue; */
+        float: right;
+        margin-right: 15px;    
+}
+.headlinehandshake{
+    font-size: 30px;
+    font-family: Silom, sans-serif;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-left: 90px;
+    text-decoration: underline;
+}
+.Texthandshake{
+        /* border: skyblue 1px solid; */
+        font-size: 18px;
+        font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+        color: #ffffff;
+        line-height: 85px;
+        text-align: center;
+        letter-spacing: 3px;
+        margin-top: 20px;    
+}
+.message{
+    text-align: center;
+    margin-top: 90px;
+}
+.headlinemessage{
+    font-size: 40px;
+    font-family:  Silom, sans-serif;
+    color: #B39B6F;
+}
+.Textmessage{
+    font-family: "A-OTF 太ゴB101 Pr6",sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 90px;
+    letter-spacing: 9px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.TextmessageWrap{
+    font-family: Phosphate,sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 3px;
+    line-height: 85px;
+    margin-top: 30px;
 }
