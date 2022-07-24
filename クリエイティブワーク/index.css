@@ -106,7 +106,18 @@
     /* border: skyblue 1px solid; */
     margin-left: 30px;
     margin-top: 70px;
+    animation: fadeIn 3s ease 1s normal backwards;
 }
+@keyframes fadeIn {
+    from {
+         opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
 .coffee {
     /* border: solid 1px skyblue; */
