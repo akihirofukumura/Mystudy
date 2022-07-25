@@ -9,7 +9,7 @@
     background-size: cover;
     position: relative;
     width: 100%;
-    height: 915px;  
+    height: 915px;
     overflow: hidden;
     /* border: solid 1px tomato; */
 }
@@ -42,7 +42,7 @@
     width: 100%;
     text-align: center;
     opacity: 0;
-    animation: fadeinAnime 5s forwards ease;
+    animation: fadeinAnime 5s  0.5s forwards ease;
     /* animation-name:fadeinAnime;
     animation-fill-mode:forwards;
     animation-duration:5s;
@@ -98,26 +98,20 @@
     /* border: solid 1px skyblue; */
     text-align: center;
     font-size: 40px;
-    font-family: Silom, sans-serif;
+    font-family:"Silom", sans-serif;
     padding-top: 20px;
 }
+
+
 
 .Imgcoffee {
     /* border: skyblue 1px solid; */
     margin-left: 30px;
     margin-top: 70px;
-    animation: fadeIn 3s ease 1s normal backwards;
+    opacity: 0;
 }
-@keyframes fadeIn {
-    from {
-         opacity: 0;
-      transform: translateX(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
+
+
 
 .coffee {
     /* border: solid 1px skyblue; */
@@ -128,7 +122,7 @@
 .headlinecoffee {
     /* border: solid 1px skyblue; */
     font-size: 30px;
-    font-family: Silom, sans-serif;
+    font-family:"Silom", sans-serif;
     color: #ffffff;
     margin-top: 85px;
     margin-left: 112px;
@@ -158,6 +152,7 @@
 .Imghamburger {
     margin-left: 30px;
     margin-top: 5px;
+    opacity: 0;
 }
 
 .hamburger {
@@ -168,7 +163,7 @@
 
 .headlinehamburger {
     font-size: 30px;
-    font-family: Silom, sans-serif;
+    font-family:"Silom", sans-serif;
     color: #ffffff;
     margin-top: 25px;
     margin-left: 90px;
@@ -199,10 +194,12 @@
     color: saddlebrown;
 }
 
-.Imgconversation{
+.Imgconversation {
     margin-left: 30px;
     margin-top: 5px;
+    opacity: 0;
 }
+
 .conversation {
     /* border: solid 1px skyblue; */
     float: right;
@@ -211,7 +208,7 @@
 
 .headlineconversation {
     font-size: 30px;
-    font-family: Silom, sans-serif;
+    font-family:"Silom", sans-serif;
     color: #ffffff;
     margin-top: 25px;
     margin-left: 55px;
@@ -228,44 +225,52 @@
     letter-spacing: 3px;
     margin-top: 20px;
 }
-.Imghandshake{
+
+.Imghandshake {
     margin-left: 30px;
     margin-top: 5px;
+    opacity: 0;
 }
-.handshake{
-        /* border: solid 1px skyblue; */
-        float: right;
-        margin-right: 15px;    
+
+.handshake {
+    /* border: solid 1px skyblue; */
+    float: right;
+    margin-right: 15px;
 }
-.headlinehandshake{
+
+.headlinehandshake {
     font-size: 30px;
-    font-family: Silom, sans-serif;
+    font-family:"Silom", sans-serif;
     color: #ffffff;
     margin-top: 25px;
     margin-left: 90px;
     text-decoration: underline;
 }
-.Texthandshake{
-        /* border: skyblue 1px solid; */
-        font-size: 18px;
-        font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
-        color: #ffffff;
-        line-height: 85px;
-        text-align: center;
-        letter-spacing: 3px;
-        margin-top: 20px;    
+
+.Texthandshake {
+    /* border: skyblue 1px solid; */
+    font-size: 18px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+    color: #ffffff;
+    line-height: 85px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 20px;
 }
-.message{
+
+.message {
     text-align: center;
     margin-top: 90px;
 }
-.headlinemessage{
+
+.headlinemessage {
     font-size: 40px;
-    font-family:  Silom, sans-serif;
+    font-family:"Silom", sans-serif;
     color: #B39B6F;
 }
-.Textmessage{
-    font-family: "A-OTF 太ゴB101 Pr6",sans-serif;
+
+.Textmessage {
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
     font-size: 18px;
     color: #ffffff;
     line-height: 90px;
@@ -273,17 +278,49 @@
     margin-top: 20px;
     margin-left: 15px;
 }
-.TextmessageWrap{
-    font-family: Phosphate,sans-serif;
+
+.TextmessageWrap {
+    font-family:"Phosphate", sans-serif;
     color: #ffffff;
     font-size: 13px;
     letter-spacing: 3px;
     line-height: 85px;
     margin-top: 30px;
 }
-.Imgsalvationmountain{
+
+.Imgsalvationmountain {
     /* border: solid 1px skyblue; */
     margin-left: 340px;
     margin-top: 60px;
     margin-bottom: 100px;
+}
+
+.headlineAccess{
+    color: #B39B6F;
+    font-family:"Silom", sans-serif;
+    font-size: 40px;
+    /* border: solid 1px skyblue; */
+    text-align: center;
+}
+.storemap{
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+}
+
+/* animation */
+.fade{
+    animation: fadeIn 0.6s ease normal forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }  
 }
