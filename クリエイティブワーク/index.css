@@ -355,6 +355,20 @@
     color: #ffffff;
     margin-top: 25px;
 }
+.copy{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 45px;
+    font-family: "Silom",sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.shoplogo{
+    /* border: solid 1px skyblue; */
+    float: right;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
 
 /* animation */
 .fade{
