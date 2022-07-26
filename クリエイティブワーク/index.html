@@ -6,30 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Salvation Mountain Coffee - サルベーション・マウンテン コーヒー</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="images/favicons/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+<div class="openbtn1"><span></span><span></span><span></span></div>
+    <nav id="g-nav">
+        <div id="g-nav-list">
+            <ul>
+                <li><a href="#">コレを見て福村は</a></li>
+                <li><a href="#">こう思ったに違いない</a></li>
+                <li><a href="#">「お前ってやつは...!」</a></li>
+                <li><a href="#">でしょ？どうかな？</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="main">
-        <header>
-            <div class="hamburger-menu">
-                <input type="checkbox" id="menu-btn-check">
-                <label for="menu-btn-check" class="menu-btn"><span></span></label>
-                <div class="menu-content">
-                    <ul>
-                        <li>
-                            <a href="#">メニューリンク1</a>
-                        </li>
-                        <li>
-                            <a href="#">メニューリンク2</a>
-                        </li>
-                        <li>
-                            <a href="#">メニューリンク3</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
         <!-- <div class="mainBackImg"><img src="images/_talking.png" alt="会話" class="talk"></div> -->
         <div class="mainLogoWrap"><img src="images/_logo_big.png" alt="店のメインロゴ" class="mainlogo"></div>
         <h2 class="mainText">
@@ -84,7 +75,7 @@
                     気分転換できる環境を常に意識しています。
                 </p>
                 <p class="TextmessageWrap">
-                    By having people talk to each other over a cup of “coffee”<br>
+                    By having people talk to each other over a cup of "coffee"<br>
                     We want people to meet new people and relieve stress. <br>
                     We are always conscious of creating an environment where people can change their mood.
                 </p>
@@ -128,7 +119,18 @@
     </p>
     <img src="images/_logo.png" alt="店のメインロゴ" class="shoplogo">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(".openbtn1").click(function () { //ボタンがクリックされたら
+            $(this).toggleClass('active'); //ボタン自身に activeクラスを付与し
+            $("#g-nav").toggleClass('panelactive'); //ナビゲーションにpanelactiveクラスを付与
+        });
+
+        $("#g-nav a").click(function () { //ナビゲーションのリンクがクリックされたら
+            $(".openbtn1").removeClass('active'); //ボタンの activeクラスを除去し
+            $("#g-nav").removeClass('panelactive'); //ナビゲーションのpanelactiveクラスも除去
+        });
+    </script>
     <script src="js/script.js"></script>
 </body>
-
-</html>
+</html

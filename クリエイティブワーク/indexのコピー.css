@@ -3,122 +3,120 @@
     padding: 0;
 }
 
-#g-nav {
-    /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
+/* ここからハンバーガーボタン */
+
+/* ここから三本線 */
+.menu-btn {
     position: fixed;
-    z-index: 999;
-    /*ナビのスタート位置と形状*/
-    top: -120%;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    /*ナビの高さ*/
-    background: #999;
-    /*動き*/
-    transition: all 0.6s;
-}
-
-/*アクティブクラスがついたら位置を0に*/
-#g-nav.panelactive {
-    top: 0;
-}
-
-/*ナビゲーションの縦スクロール*/
-#g-nav.panelactive #g-nav-list {
-    /*ナビの数が増えた場合縦スクロール*/
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    height: 100vh;
-    /*表示する高さ*/
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-/*ナビゲーション*/
-#g-nav ul {
-    /*ナビゲーション中央揃え*/
-    position: absolute;
-    z-index: 999;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/*リストのレイアウト設定*/
-
-#g-nav li {
-    list-style: none;
-    text-align: center;
-}
-
-#g-nav li a {
-    color: #333;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-}
-
-/*========= ボタンのCSS ===============*/
-.openbtn1 {
-    position: fixed;
-    z-index: 9999;
-    /*ボタンを最前面に*/
     top: 10px;
     right: 10px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
 }
 
-/*×に変化、別になくてもいいんじゃなーい*/
-.openbtn1 span {
-    display: inline-block;
-    transition: all .4s;
-    position: absolute;
-    left: 14px;
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
     height: 3px;
-    border-radius: 2px;
-    background-color: #666;
-    width: 45%;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #fff;
+    position: absolute;
 }
 
-.openbtn1 span:nth-of-type(1) {
-    top: 15px;
+.menu-btn span:before {
+    bottom: 8px;
 }
 
-.openbtn1 span:nth-of-type(2) {
-    top: 23px;
+.menu-btn span:after {
+    top: 8px;
 }
 
-.openbtn1 span:nth-of-type(3) {
-    top: 31px;
+/* ここから三本線を✗に */
+#menu-btn-check:checked~.menu-btn span {
+    background-color: rgba(255, 255, 255, 0);
+    /*メニューオープン時は真ん中の線を透明にする*/
 }
 
-/* しれっと出てる nth-of-type("数")っていうのは、指定した要素の"数"番目の要素を選択、ってこと。
-だからHTMLの方に出てるspan連続記述はココで生きてきてるので消しちゃダメよ。 */
-
-.openbtn1.active span:nth-of-type(1) {
-    top: 18px;
-    left: 18px;
-    transform: translateY(6px) rotate(-45deg);
-    width: 30%;
+#menu-btn-check:checked~.menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
 }
 
-.openbtn1.active span:nth-of-type(2) {
-    opacity: 0;
+#menu-btn-check:checked~.menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
 }
 
-.openbtn1.active span:nth-of-type(3) {
-    top: 30px;
-    left: 18px;
-    transform: translateY(-6px) rotate(45deg);
-    width: 30%;
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
 }
 
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    /*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+    background-color: #3584bb;
+    transition: all 0.5s;
+    /*アニメーション設定*/
+}
+
+#menu-btn-check:checked~.menu-content {
+    left: 0;
+    /*メニューを画面内へ*/
+}
+
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+
+.menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+}
+
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+/* チェックボックス消す */
+#menu-btn-check {
+    display: none;
+}
 
 /* ここからトップページ */
 .main {
@@ -185,7 +183,8 @@
     font-family: "A P-OTF 凸版文久見出ゴ Std", sans-serif;
     font-size: 38px;
     letter-spacing: 20px;
-    animation: fadeinAnime 4s 1s forwards ease;
+    opacity: 0;
+    animation: fadeinAnime 4s 0.5s forwards ease;
 }
 
 @keyframes fadeinAnime {
