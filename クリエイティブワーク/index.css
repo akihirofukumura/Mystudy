@@ -3,6 +3,122 @@
     padding: 0;
 }
 
+/* ここからハンバーガーボタン */
+
+/* ここから三本線 */
+.menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+}
+
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.menu-btn span:before {
+    bottom: 8px;
+}
+
+.menu-btn span:after {
+    top: 8px;
+}
+
+/* ここから三本線を✗に */
+#menu-btn-check:checked~.menu-btn span {
+    background-color: rgba(255, 255, 255, 0);
+    /*メニューオープン時は真ん中の線を透明にする*/
+}
+
+#menu-btn-check:checked~.menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+#menu-btn-check:checked~.menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+}
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    /*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+    background-color: #3584bb;
+    transition: all 0.5s;
+    /*アニメーション設定*/
+}
+
+#menu-btn-check:checked~.menu-content {
+    left: 0;
+    /*メニューを画面内へ*/
+}
+
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+
+.menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+}
+
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+/* チェックボックス消す */
+#menu-btn-check {
+    display: none;
+}
+
+/* ここからトップページ */
 .main {
     /* background-color: #f00; */
     background-image: url(../クリエイティブワーク/images/_talking.png);
@@ -41,24 +157,18 @@
 .mainLogoWrap img {
     width: 100%;
     text-align: center;
-    opacity: 0;
-    animation: fadeinAnime 5s  0.5s forwards ease;
-    /* animation-name:fadeinAnime;
-    animation-fill-mode:forwards;
-    animation-duration:5s;
-    animation-iteration-count:1;
-    animation-timing-function:ease;
-    animation-delay: 1s;
-    animation-direction:normal; */
+    animation: 3s fuwafuwa infinite;
 }
 
-@keyframes fadeinAnime {
-    from {
-        opacity: 0;
+@keyframes fuwafuwa {
+
+    0%,
+    100% {
+        transform: translateY(0);
     }
 
-    to {
-        opacity: 1;
+    50% {
+        transform: translateY(-20px);
     }
 }
 
@@ -73,6 +183,18 @@
     font-family: "A P-OTF 凸版文久見出ゴ Std", sans-serif;
     font-size: 38px;
     letter-spacing: 20px;
+    opacity: 0;
+    animation: fadeinAnime 4s 0.5s forwards ease;
+}
+
+@keyframes fadeinAnime {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .Mainbackground {
@@ -99,7 +221,7 @@
     /* border: solid 1px skyblue; */
     text-align: center;
     font-size: 40px;
-    font-family:"Silom", sans-serif;
+    font-family: "Silom", sans-serif;
     padding-top: 20px;
 }
 
@@ -123,7 +245,7 @@
 .headlinecoffee {
     /* border: solid 1px skyblue; */
     font-size: 30px;
-    font-family:"Silom", sans-serif;
+    font-family: "Silom", sans-serif;
     color: #ffffff;
     margin-top: 85px;
     margin-left: 112px;
@@ -164,7 +286,7 @@
 
 .headlinehamburger {
     font-size: 30px;
-    font-family:"Silom", sans-serif;
+    font-family: "Silom", sans-serif;
     color: #ffffff;
     margin-top: 25px;
     margin-left: 90px;
@@ -209,7 +331,7 @@
 
 .headlineconversation {
     font-size: 30px;
-    font-family:"Silom", sans-serif;
+    font-family: "Silom", sans-serif;
     color: #ffffff;
     margin-top: 25px;
     margin-left: 55px;
@@ -241,7 +363,7 @@
 
 .headlinehandshake {
     font-size: 30px;
-    font-family:"Silom", sans-serif;
+    font-family: "Silom", sans-serif;
     color: #ffffff;
     margin-top: 25px;
     margin-left: 90px;
@@ -266,7 +388,7 @@
 
 .headlinemessage {
     font-size: 40px;
-    font-family:"Silom", sans-serif;
+    font-family: "Silom", sans-serif;
     color: #B39B6F;
 }
 
@@ -281,7 +403,7 @@
 }
 
 .TextmessageWrap {
-    font-family:"Phosphate", sans-serif;
+    font-family: "Phosphate", sans-serif;
     color: #ffffff;
     font-size: 13px;
     letter-spacing: 3px;
@@ -296,19 +418,21 @@
     margin-bottom: 100px;
 }
 
-.headlineAccess{
+.headlineAccess {
     color: #B39B6F;
-    font-family:"Silom", sans-serif;
+    font-family: "Silom", sans-serif;
     font-size: 40px;
     /* border: solid 1px skyblue; */
     text-align: center;
 }
-.storemap{
+
+.storemap {
     margin-left: 40px;
     margin-top: 40px;
     border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
 }
-.Access{
+
+.Access {
     text-align: center;
     float: right;
     font-size: 16px;
@@ -316,18 +440,20 @@
     letter-spacing: 3px;
     margin-right: 30px;
 }
-.station{
+
+.station {
     margin-top: 65px;
     margin-right: 30px;
     line-height: 35px;
 }
-.address{
+
+.address {
     margin-top: 80px;
     margin-right: 30px;
     line-height: 30px;
 }
 
-.contact{
+.contact {
     margin-left: 45px;
     margin-top: 10px;
     line-height: 30px;
@@ -335,35 +461,39 @@
     color: #ffffff;
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
 }
-.close{
+
+.close {
     text-align: center;
     font-size: 45px;
-    font-family: "A-OTF 太ゴB101 Pr6",sans-serif;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
     color: #ffffff;
     margin-top: 30px;
 }
 
-.time{
+.time {
     text-align: center;
     color: #ffffff;
     font-size: 15px;
     margin-top: -15px;
 }
-.attention{
+
+.attention {
     text-align: center;
     font-family: sans-serif;
     color: #ffffff;
     margin-top: 25px;
 }
-.copy{
+
+.copy {
     text-align: center;
     margin-left: 40px;
     margin-top: 45px;
-    font-family: "Silom",sans-serif;
+    font-family: "Silom", sans-serif;
     font-size: 18px;
     letter-spacing: 2px;
 }
-.shoplogo{
+
+.shoplogo {
     /* border: solid 1px skyblue; */
     float: right;
     margin-bottom: auto;
@@ -371,7 +501,7 @@
 }
 
 /* animation */
-.fade{
+.fade {
     animation: fadeIn 0.6s ease normal forwards;
 }
 
@@ -384,5 +514,5 @@
     to {
         opacity: 1;
         transform: translateX(0);
-    }  
+    }
 }
