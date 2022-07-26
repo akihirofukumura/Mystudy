@@ -89,6 +89,7 @@
 .Smallbackground {
     background-color: #0A2C43;
     width: 880px;
+    height: 650px;
     margin-left: 420px;
 }
 
@@ -332,6 +333,27 @@
     line-height: 30px;
     font-size: 18px;
     color: #ffffff;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+}
+.close{
+    text-align: center;
+    font-size: 45px;
+    font-family: "A-OTF 太ゴB101 Pr6",sans-serif;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.time{
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: -15px;
+}
+.attention{
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-top: 25px;
 }
 
 /* animation */
