@@ -3,6 +3,36 @@
     padding: 0;
 }
 
+/* ここからハンバーガーメニュー内の位置*/
+
+.Home{
+        margin-top: -120px;
+}
+
+.Menu{
+    margin-top: 50px;
+}
+
+.Visual{
+    margin-top: 50px;
+}
+
+.Service{
+    margin-top: 50px;
+}
+
+
+/* ここからハンバーガーメニュー内のテキストサイズなど */
+.Hometext{
+    font-size: 25px;
+    font-family: "Silom",sans-serif;
+    letter-spacing: 10px;
+}
+
+.Hamlogo{
+    vertical-align: bottom;
+}
+
 #g-nav {
     /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
     position: fixed;
@@ -98,9 +128,6 @@
     top: 31px;
 }
 
-/* しれっと出てる nth-of-type("数")っていうのは、指定した要素の"数"番目の要素を選択、ってこと。
-だからHTMLの方に出てるspan連続記述はココで生きてきてるので消しちゃダメよ。 */
-
 .openbtn1.active span:nth-of-type(1) {
     top: 18px;
     left: 18px;
@@ -118,6 +145,7 @@
     transform: translateY(-6px) rotate(45deg);
     width: 30%;
 }
+
 
 
 /* ここからトップページ */
@@ -185,7 +213,8 @@
     font-family: "A P-OTF 凸版文久見出ゴ Std", sans-serif;
     font-size: 38px;
     letter-spacing: 20px;
-    animation: fadeinAnime 4s 1s forwards ease;
+
+    animation: fadeinAnime 5s 0.5s forwards ease;
 }
 
 @keyframes fadeinAnime {
