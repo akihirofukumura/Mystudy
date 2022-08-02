@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+/*ここからトップページボタン */
+.topbtn{
+    position: fixed;
+    z-index: 9998;
+    border: tomato 1px solid;
+    text-align: left;
+}
 
 /* ここからハンバーガーメニュー内の位置*/
 
@@ -141,7 +148,6 @@
     height: 50px;
 }
 
-/*×に変化、別になくてもいいんじゃなーい*/
 .openbtn1 span {
     display: inline-block;
     transition: all .4s;
@@ -188,7 +194,7 @@
 /* ここからトップページ */
 .main {
     /* background-color: #f00; */
-    background-image: url(../クリエイティブワーク/images/_talking.png);
+    background-image: url(images/_talking.png);
     background-size: cover;
     position: relative;
     width: 100%;
