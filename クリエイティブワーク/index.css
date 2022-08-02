@@ -4,10 +4,13 @@
 }
 /*ここからトップページボタン */
 .topbtn{
+    display: flex;
+    flex-direction:row-reverse;
     position: fixed;
-    z-index: 9998;
+    z-index: 9999;
     border: tomato 1px solid;
-    text-align: left;
+    width: 100%;
+    margin-top: 8px;
 }
 
 /* ここからハンバーガーメニュー内の位置*/
