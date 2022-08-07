@@ -234,7 +234,7 @@ a.active {
 /* ここからトップページ */
 .main {
     /* background-color: #f00; */
-    background-image: url(../images/_talking.png);
+    background-image: url(../images/talking.png);
     background-size: cover;
     position: relative;
     width: 100%;
