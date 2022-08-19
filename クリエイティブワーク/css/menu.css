@@ -15,3 +15,7 @@ body{
     width: 880px;
     margin-left: 420px;
 }
+
+.Mainvisual{
+    display: flex;
+}
