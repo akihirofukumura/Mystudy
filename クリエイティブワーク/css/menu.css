@@ -53,3 +53,14 @@ html {
     border: solid 1.5px #ffff;
     width: 275px;
 }
+
+.Mountainprice{
+    /* border: solid 1px skyblue; */
+    font-family: "Chalkboard SE", sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-decoration: underline;
+}
