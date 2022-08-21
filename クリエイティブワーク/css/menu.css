@@ -57,10 +57,14 @@ html {
 .Mountainprice{
     /* border: solid 1px skyblue; */
     font-family: "Chalkboard SE", sans-serif;
-    color: rgb(255, 255, 255);
+    color: black;
     position: absolute;
     margin-top: -40px;
-    margin-left: 5px;
     font-size: 20px;
     text-decoration: underline;
+    background-color: rgba(221, 217, 217, 0.789);
+}
+.MountainText{
+    background-color: rgb(234, 228, 228);
+    margin-top: -10px;
 }
