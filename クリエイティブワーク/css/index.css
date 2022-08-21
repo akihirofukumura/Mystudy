@@ -296,7 +296,7 @@ a.active {
     font-family: "A P-OTF 凸版文久見出ゴ Std", sans-serif;
     font-size: 38px;
     letter-spacing: 20px;
-    animation: fadeinAnime 5s 1.5s forwards ease;
+    animation: fadeinAnime 6s 0.2s forwards ease;
 }
 
 @keyframes fadeinAnime {
