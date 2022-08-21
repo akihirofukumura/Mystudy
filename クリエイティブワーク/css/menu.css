@@ -68,3 +68,10 @@ html {
     background-color: rgb(234, 228, 228);
     margin-top: -10px;
 }
+.MountainTitle{
+    font-size: 18px;
+    font-family: Silom, sans-serif;
+}
+.MountainTextWrap{
+    font-size: 12px;
+}
