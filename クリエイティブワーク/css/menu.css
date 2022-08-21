@@ -76,3 +76,35 @@ html {
     font-size: 12px;
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
 }
+
+.Salvationham{
+    border: solid 1.5px #ffff;
+    width: 275px;
+}
+
+.Salvationprice{
+    /* border: solid 1px skyblue; */
+    font-family: "Chalkboard SE", sans-serif;
+    color: black;
+    position: absolute;
+    margin-top: -45px;
+    font-size: 25px;
+    text-decoration: underline;
+    background-color: rgba(221, 217, 217, 0.44);
+}
+.SalvationText{
+    background-color: rgb(234, 228, 228);
+    margin-top: -10px;
+}
+.SalvationTitle{
+    font-size: 18px;
+    font-family: Silom, sans-serif;
+}
+.SalvationTextWrap{
+    font-size: 12px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+}
+
+#set{
+    /* float: right; */
+}
