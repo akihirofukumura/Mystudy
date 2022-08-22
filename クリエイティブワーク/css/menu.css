@@ -52,6 +52,10 @@ html {
 .Mountainham{
     border: solid 1.5px #ffff;
     width: 275px;
+    margin-right: 12px;
+    margin-top: 28px;
+    margin-left: 12px;
+    text-align: center;
 }
 
 .Mountainprice{
@@ -80,6 +84,8 @@ html {
 .Salvationham{
     border: solid 1.5px #ffff;
     width: 275px;
+    margin-right: -4px;
+    text-align: center;
 }
 
 .Salvationprice{
@@ -107,6 +113,10 @@ html {
 .Americanham{
     border: solid 1.5px #ffff;
     width: 275px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 
 .Americanprice{
@@ -132,5 +142,5 @@ html {
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
 }
 #set{
-    /* float: right; */
+    float: right;
 }
