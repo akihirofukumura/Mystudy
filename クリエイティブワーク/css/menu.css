@@ -168,3 +168,10 @@ html {
 #set {
     float: right;
 }
+
+.attention{
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+    font-size: 15px;
+    text-align: right;
+    color: #ffff;
+}
