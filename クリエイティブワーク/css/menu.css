@@ -6,30 +6,32 @@ html {
     margin: 0;
     padding: 0;
 }
-.Mainbuck{
+
+.Mainbuck {
     background-color: #1A8991;
     margin-top: -6px;
 }
 
-.subback{
+.subback {
     background: #CF632B;
     width: 880px;
     margin-left: 420px;
-    
+
 }
 
-.Mainvisual{
+.Mainvisual {
     display: flex;
     opacity: 90%;
 }
 
-.Mainlogo{
+.Mainlogo {
     position: absolute;
     z-index: 99;
     margin-left: 430px;
     margin-top: 330px;
     animation: 3s fuwafuwa infinite;
 }
+
 @keyframes fuwafuwa {
 
     0%,
@@ -41,15 +43,17 @@ html {
         transform: translateY(-20px);
     }
 }
-.set{
+
+.set {
     font-size: 40px;
     color: #B39B6F;
     font-family: Silom, sans-serif;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
 
-.Mountainham{
+.Mountainham {
     border: solid 1.5px #ffff;
     width: 275px;
     margin-right: 12px;
@@ -58,7 +62,7 @@ html {
     text-align: center;
 }
 
-.Mountainprice{
+.Mountainprice {
     /* border: solid 1px skyblue; */
     font-family: "Chalkboard SE", sans-serif;
     color: black;
@@ -68,27 +72,39 @@ html {
     text-decoration: underline;
     background-color: rgba(221, 217, 217, 0.44);
 }
-.MountainText{
+
+.MountainText {
     background-color: rgb(234, 228, 228);
     margin-top: -10px;
 }
-.MountainTitle{
+
+.MountainTitle {
     font-size: 18px;
     font-family: Silom, sans-serif;
 }
-.MountainTextWrap{
+
+.MountainTextWrap {
     font-size: 12px;
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
 }
 
-.Salvationham{
+.Salvationham {
     border: solid 1.5px #ffff;
     width: 275px;
     margin-right: -4px;
     text-align: center;
 }
 
-.Salvationprice{
+.popularlogo {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -40px;
+    transform-origin: center bottom;
+}
+
+
+
+.Salvationprice {
     /* border: solid 1px skyblue; */
     font-family: "Chalkboard SE", sans-serif;
     color: black;
@@ -98,19 +114,23 @@ html {
     text-decoration: underline;
     background-color: rgba(221, 217, 217, 0.44);
 }
-.SalvationText{
+
+.SalvationText {
     background-color: rgb(234, 228, 228);
     margin-top: -10px;
 }
-.SalvationTitle{
+
+.SalvationTitle {
     font-size: 18px;
     font-family: Silom, sans-serif;
 }
-.SalvationTextWrap{
+
+.SalvationTextWrap {
     font-size: 12px;
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
 }
-.Americanham{
+
+.Americanham {
     border: solid 1.5px #ffff;
     width: 275px;
     text-align: center;
@@ -119,7 +139,7 @@ html {
     margin-left: 15px;
 }
 
-.Americanprice{
+.Americanprice {
     /* border: solid 1px skyblue; */
     font-family: "Chalkboard SE", sans-serif;
     color: black;
@@ -129,18 +149,22 @@ html {
     text-decoration: underline;
     background-color: rgba(221, 217, 217, 0.44);
 }
-.AmericanText{
+
+.AmericanText {
     background-color: rgb(234, 228, 228);
     margin-top: -10px;
 }
-.AmericanTitle{
+
+.AmericanTitle {
     font-size: 18px;
     font-family: Silom, sans-serif;
 }
-.AmericanTextWrap{
+
+.AmericanTextWrap {
     font-size: 12px;
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
 }
-#set{
+
+#set {
     float: right;
 }
