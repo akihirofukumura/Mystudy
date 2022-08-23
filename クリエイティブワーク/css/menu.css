@@ -189,7 +189,6 @@ html {
     border: solid 1.5px #ffff;
     width: 275px;
     margin-right: 12px;
-    margin-top: 28px;
     margin-left: 12px;
     text-align: center;
 }
@@ -218,14 +217,12 @@ html {
 .AmericancoffeeTextWrap {
     font-size: 12px;
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
-}
+    }
 
 .Peacecoffee {
     border: solid 1.5px #ffff;
     width: 275px;
-    margin-right: 12px;
-    margin-top: 28px;
-    margin-left: 12px;
+    margin-right: -4px;
     text-align: center;
 }
 
@@ -259,7 +256,6 @@ html {
     border: solid 1.5px #ffff;
     width: 275px;
     margin-right: 12px;
-    margin-top: 28px;
     margin-left: 12px;
     text-align: center;
 }
@@ -288,4 +284,8 @@ html {
 .CaramelTextWrap {
     font-size: 12px;
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+}
+
+#coffee{
+    float: right;
 }
