@@ -175,3 +175,12 @@ html {
     text-align: right;
     color: #ffff;
 }
+
+.coffee{
+    font-size: 40px;
+    color: #B39B6F;
+    font-family: Silom, sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
