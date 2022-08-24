@@ -469,3 +469,112 @@ html {
 #HamSub{
     float: right;
 }
+
+.Sandwich{
+    font-size: 40px;
+    color: #B39B6F;
+    font-family: Silom, sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    clear: both;
+}
+
+.VegetableSand{
+    border: solid 1px #ffff;
+    width: 152px;
+    text-align: center;
+    margin-left: 26px;
+}
+
+.VegetableSandprice{
+    /* border: solid 1px #ffff; */
+    font-family: "Chalkboard SE", sans-serif;
+    color: black;
+    position: absolute;
+    margin-top: -38px;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: rgba(221, 217, 217, 0.44);
+}
+
+.VegetableSandText{
+    background-color: rgb(234, 228, 228);
+    margin-top: -10px;
+}
+
+.VegetableSandTitle{
+    font-size: 15px;
+    font-family: Silom, sans-serif;
+}
+
+.VegetableSandTextWrap{
+    font-size: 12px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+}
+
+.HamSand{
+    border: solid 1px #ffff;
+    width: 152px;
+    text-align: center;
+    margin-left: 26px;
+}
+
+.HamSandprice{
+    /* border: solid 1px #ffff; */
+    font-family: "Chalkboard SE", sans-serif;
+    color: black;
+    position: absolute;
+    margin-top: -38px;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: rgba(221, 217, 217, 0.44);
+}
+
+.HamSandText{
+    background-color: rgb(234, 228, 228);
+    margin-top: -10px;
+}
+
+.HamSansTitle{
+    font-size: 15px;
+    font-family: Silom, sans-serif;
+}
+
+.HamSandTextWrap{
+    font-size: 12px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+}
+
+.KronSand{
+    border: solid 1px #ffff;
+    width: 152px;
+    text-align: center;
+    margin-left: 26px;
+}
+
+.KronSandprice{
+    /* border: solid 1px #ffff; */
+    font-family: "Chalkboard SE", sans-serif;
+    color: black;
+    position: absolute;
+    margin-top: -38px;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: rgba(221, 217, 217, 0.44);
+}
+
+.KronSandText{
+    background-color: rgb(234, 228, 228);
+    margin-top: -10px;
+}
+
+.KornSandTitle{
+    font-size: 15px;
+    font-family: Silom, sans-serif;
+}
+
+.KornSandTextWrap{
+    font-size: 12px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+}
