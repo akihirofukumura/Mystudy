@@ -16,7 +16,7 @@ html {
     background: #CF632B;
     width: 880px;
     margin-left: 420px;
-
+    height: 1850px;
 }
 
 .Mainvisual {
@@ -646,4 +646,8 @@ html {
 
 #Sand{
     float: right;
+}
+
+.else{
+    clear:both
 }
