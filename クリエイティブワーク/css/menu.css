@@ -304,6 +304,7 @@ html {
     border: solid 1px #ffff;
     width: 152px;
     text-align: center;
+    margin-left: 26px;
 }
 
 .Amazingprice{
@@ -336,6 +337,7 @@ html {
     border: solid 1px #ffff;
     width: 152px;
     text-align: center;
+    margin-left: 26px;
 }
 
 .Cheesepraice{
@@ -368,6 +370,7 @@ html {
     border: solid 1px #ffff;
     width: 152px;
     text-align: center;
+    margin-left: 26px;
 }
 
 .AmericanWrapprice{
@@ -400,6 +403,7 @@ html {
     border: solid 1px #ffff;
     width: 152px;
     text-align: center;
+    margin-left: 26px;
 }
 
 .Egghamprice{
@@ -433,6 +437,7 @@ html {
     border: solid 1px #ffff;
     width: 152px;
     text-align: center;
+    margin-right: 6px;
 }
 
 .Blackhamprice{
@@ -461,6 +466,6 @@ html {
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
 }
 
-.HamSub{
+#HamSub{
     float: right;
 }
