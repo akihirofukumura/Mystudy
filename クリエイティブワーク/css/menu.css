@@ -578,3 +578,68 @@ html {
     font-size: 12px;
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
 }
+.SmokeSand{
+    border: solid 1px #ffff;
+    width: 152px;
+    text-align: center;
+    margin-left: 26px;
+}
+
+.SmokeSandprice{
+    /* border: solid 1px #ffff; */
+    font-family: "Chalkboard SE", sans-serif;
+    color: black;
+    position: absolute;
+    margin-top: -38px;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: rgba(221, 217, 217, 0.44);
+}
+
+.SmokeSandText{
+    background-color: rgb(234, 228, 228);
+    margin-top: -10px;
+}
+
+.SmokeSandTitle{
+    font-size: 15px;
+    font-family: Silom, sans-serif;
+}
+
+.SmokeSandTextWrap{
+    font-size: 12px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+}
+
+.AvocadoSand{
+    border: solid 1px #ffff;
+    width: 152px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+.Avocadoprice{
+    /* border: solid 1px #ffff; */
+    font-family: "Chalkboard SE", sans-serif;
+    color: black;
+    position: absolute;
+    margin-top: -38px;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: rgba(221, 217, 217, 0.44);
+}
+
+.AvocadoText{
+    background-color: rgb(234, 228, 228);
+    margin-top: -10px;
+}
+
+.AvocadoTitle{
+    font-size: 15px;
+    font-family: Silom, sans-serif;
+}
+
+.AvocadoTextWrap{
+    font-size: 12px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+}
