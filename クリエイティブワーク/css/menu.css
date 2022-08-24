@@ -395,3 +395,72 @@ html {
     font-size: 12px;
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
 }
+
+.Eggham{
+    border: solid 1px #ffff;
+    width: 152px;
+    text-align: center;
+}
+
+.Egghamprice{
+    /* border: solid 1px #ffff; */
+    font-family: "Chalkboard SE", sans-serif;
+    color: black;
+    position: absolute;
+    margin-top: -38px;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: rgba(221, 217, 217, 0.44);
+}
+
+.EgghamText{
+    background-color: rgb(234, 228, 228);
+    margin-top: -10px;
+}
+
+.EgghamTitle{
+    font-size: 15px;
+    font-family: Silom, sans-serif;
+}
+
+.EgghamTextWrap{
+    font-size: 12px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+}
+
+
+.Blackham{
+    border: solid 1px #ffff;
+    width: 152px;
+    text-align: center;
+}
+
+.Blackhamprice{
+    /* border: solid 1px #ffff; */
+    font-family: "Chalkboard SE", sans-serif;
+    color: black;
+    position: absolute;
+    margin-top: -38px;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: rgba(221, 217, 217, 0.44);
+}
+
+.BlackhamText{
+    background-color: rgb(234, 228, 228);
+    margin-top: -10px;
+}
+
+.BlackhamTitle{
+    font-size: 15px;
+    font-family: Silom, sans-serif;
+}
+
+.BlackhamTextWrap{
+    font-size: 12px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+}
+
+.HamSub{
+    float: right;
+}
