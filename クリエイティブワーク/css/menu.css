@@ -22,7 +22,7 @@ html {
 
 .MainbackWrap{
     background-color: #1A8991;
-    height: 400px;
+    height: 700px;
 }
 
 .Mainvisual {
@@ -659,7 +659,7 @@ html {
     width: 880px;
     margin-left: 420px;
     margin-top: -150px;
-    height: 400px;
+    height: 500px;
     text-align: center;
 }
 
@@ -682,6 +682,17 @@ html {
 }
 
 .SaladWrap{
+    color: #ffff;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.Drink{
+    color: #B39B6F;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.DrinkWrap{
     color: #ffff;
     font-size: 20px;
     letter-spacing: 3px;
