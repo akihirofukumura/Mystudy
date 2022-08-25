@@ -665,10 +665,12 @@ html {
 
 .Dessert{
     color: #B39B6F;
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 20px;
 }
 
 .DessertWrap{
     color: #ffff;
+    font-size: 20px;
+    letter-spacing: 3px;
 }
