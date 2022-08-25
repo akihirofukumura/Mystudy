@@ -7,9 +7,10 @@ html {
     padding: 0;
 }
 
-.Mainbuck {
+.Mainback {
     background-color: #1A8991;
     margin-top: -6px;
+    height: 2000px;
 }
 
 .subback {
@@ -17,6 +18,11 @@ html {
     width: 880px;
     margin-left: 420px;
     height: 1850px;
+}
+
+.MainbackWrap{
+    background-color: #1A8991;
+    height: 400px;
 }
 
 .Mainvisual {
@@ -649,5 +655,20 @@ html {
 }
 
 .else{
-    clear:both
+    background: #0A2C43;
+    width: 880px;
+    margin-left: 420px;
+    margin-top: -150px;
+    height: 400px;
+    text-align: center;
+}
+
+.Dessert{
+    color: #B39B6F;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.DessertWrap{
+    color: #ffff;
 }

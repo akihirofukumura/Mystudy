@@ -316,15 +316,15 @@ a.active {
 .Subbackground {
     background-color: #CF632B;
     /* border: solid 1px skyblue; */
-    width: 880px;
-    margin-left: 420px;
+    width: 60%;
+    margin: 0 20%;
 }
 
 .Smallbackground {
     background-color: #0A2C43;
-    width: 880px;
     height: 650px;
-    margin-left: 420px;
+    width: 60%;
+    margin: 0 20%;
 }
 
 .headline {
