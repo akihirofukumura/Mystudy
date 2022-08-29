@@ -7,6 +7,31 @@ html {
     padding: 0;
 }
 
+.mainText{
+    position: absolute;
+    /* border: solid 1px tomato; */
+    z-index: 30;
+    /* margin-top: 530px; */
+    /* margin-left: 68px; */
+    bottom: 10px;
+    left: 60px;
+    font-family: "A P-OTF 凸版文久見出ゴ Std", sans-serif;
+    font-size: 38px;
+    letter-spacing: 20px;
+    animation: fadeinAnime 6s 0.2s forwards ease;
+}
+
+@keyframes fadeinAnime {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
 .Mainback {
     background-color: #1A8991;
     margin-top: -6px;
