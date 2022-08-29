@@ -267,3 +267,66 @@ a.active {
 }
 
 /* ここからトップページ */
+.main {
+    /* background-color: #f00; */
+    background-image: url(../images/service.png);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 915px;
+    overflow: hidden;
+    /* border: solid 1px tomato; */
+}
+.mainLogoWrap {
+    position: absolute;
+    text-align: center;
+    z-index: 20;
+    /* border: solid 5px skyblue; */
+    width: 600px;
+    height: 170px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.mainText {
+    position: absolute;
+    /* border: solid 1px tomato; */
+    z-index: 30;
+    /* margin-top: 530px; */
+    /* margin-left: 68px; */
+    bottom: 10px;
+    left: 60px;
+    font-family: "A P-OTF 凸版文久見出ゴ Std", sans-serif;
+    font-size: 38px;
+    letter-spacing: 20px;
+    animation: fadeinAnime 6s 0.2s forwards ease;
+}
+
+@keyframes fadeinAnime {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.mainLogoWrap img {
+    width: 100%;
+    text-align: center;
+    animation: 3s fuwafuwa infinite;
+}
+
+@keyframes fuwafuwa {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
