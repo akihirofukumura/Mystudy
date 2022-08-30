@@ -331,3 +331,32 @@ a.active {
     }
 }
 
+.MainBack{
+    background-color: #1A8991;
+}
+
+.SubBack{
+    background-color: #CF632B;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Love{
+    width: 600px;
+    border: solid 1px #000;
+}
+
+.LoveHead{
+    color: #B39B6F;
+    font-family: "Silom", sans-serif;
+    font-size: 60px;
+    margin-left: 20px;
+    padding-top: 10px;
+    /* text-decoration: underline; */
+}
+
+.LoveImg{
+    width: 150px;
+}
