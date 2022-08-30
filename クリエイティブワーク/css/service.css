@@ -354,9 +354,22 @@ a.active {
     font-size: 60px;
     margin-left: 20px;
     padding-top: 10px;
+    letter-spacing: 10px;
     /* text-decoration: underline; */
 }
 
 .LoveImg{
+    margin-top: 30px;
     width: 150px;
+    text-align: center;
+}
+
+.LoveText{
+    font-size: 18px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+    color: #ffffff;
+    line-height: 85px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 20px;
 }
