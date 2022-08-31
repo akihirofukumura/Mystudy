@@ -409,6 +409,37 @@ a.active {
     /* letter-spacing: 1px; */
     font-size: 14px;
 }
+
+.ThisHead{
+    font-family: "Phosphate", sans-serif;
+    margin-top: 60px;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+.ThisText{
+    font-size: 18px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 90px;
+    line-height: 40px;
+}
+
+.ThisTitle{
+    font-size: 25px;
+    font-family:sans-serif;
+    /* line-height: 70px; */
+    letter-spacing: 3px;
+}
+.ThisTextWrap{
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+    /* letter-spacing: 1px; */
+    font-size: 14px;
+}
+
+/* [Here you are;This is me]Hover時 */
+
 .sample11 {
 	/* width:			280px; */
 	/* height:			188px; */
@@ -444,31 +475,49 @@ a.active {
 	margin-left:		50%;	/* 画像を半分サイズ、右にずらす */
 }
 
-
-.ThisHead{
-    font-family: "Phosphate", sans-serif;
-    margin-top: 60px;
-    letter-spacing: 10px;
+.Anxiety{
+    color: #B39B6F;
+    font-family: "A P-OTF 凸版文久見出ゴ Std", sans-serif;
     font-size: 40px;
-}
-.ThisText{
-    font-size: 18px;
-    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 80px;
-    margin-top: 90px;
-    line-height: 40px;
-}
-
-.ThisTitle{
-    font-size: 25px;
-    font-family:sans-serif;
-    /* line-height: 70px; */
+    margin-left: 20px;
+    padding-top: 80px;
     letter-spacing: 3px;
 }
-.ThisTextWrap{
-    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
-    /* letter-spacing: 1px; */
-    font-size: 14px;
+
+.LovePoster{
+    width: 440px;
+    margin-top: 30px;
+}
+
+.TicketTable{
+    width: 640px;
+    float: right;
+    margin-top: 125px;
+    margin-right: 10px;
+}
+
+.ShopExp{
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: "A P-OTF 凸版文久見出ゴ Std", sans-serif;
+}
+
+.On{
+    font-size: 30px;
+    color: #fff;
+}  
+
+.ShopText{
+    font-size: 15px;
+    font-family: "A P-OTF 凸版文久見出ゴ Std", sans-serif;
+    margin-right: 8px;
+}
+
+.Question{
+    font-size: 20px;
+    margin-right: 8px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    text-decoration: underline 8%;
+    font-family: sans-serif;
 }
