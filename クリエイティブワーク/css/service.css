@@ -383,8 +383,29 @@ a.active {
 }
 
 .HereHead{
-    font-family: sans-serif;
+    font-family: "Phosphate", sans-serif;
     margin-top: 60px;
     letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.HereText{
+    font-size: 18px;
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: -20px;
+}
+
+.HereTitle{
     font-size: 30px;
+    font-family:sans-serif;
+    line-height: 70px;
+    letter-spacing: 5px;
+}
+.HereTextWrap{
+    font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
+    /* letter-spacing: 1px; */
+    font-size: 15px;
 }
