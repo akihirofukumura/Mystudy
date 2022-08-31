@@ -395,17 +395,60 @@ a.active {
     color: #ffffff;
     text-align: center;
     margin-bottom: 80px;
-    margin-top: -20px;
+    margin-top: -60px;
 }
 
 .HereTitle{
-    font-size: 30px;
+    font-size: 25px;
     font-family:sans-serif;
-    line-height: 70px;
-    letter-spacing: 5px;
+    /* line-height: 70px; */
+    letter-spacing: 3px;
 }
 .HereTextWrap{
     font-family: "A-OTF 太ゴB101 Pr6", sans-serif;
     /* letter-spacing: 1px; */
-    font-size: 15px;
+    font-size: 14px;
+}
+.sample11 {
+	/* width:			280px; */
+	/* height:			188px; */
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.sample11 .caption {
+	font-size:		130%;
+	color:			#fff;
+	padding-top:		80px;
+	padding-left:		20px;
+}
+.sample11 .mask {
+	width:			50%;	/* 画像の半分の大きさにする */
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	margin-left:		-50%;	/* 枠の左に置いて表示させない */
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+}
+.sample11:hover .mask {
+	margin-left:		0px;	/* 右にずらして表示する */
+}
+.sample11 img {
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+}
+.sample11:hover img {
+	margin-left:		50%;	/* 画像を半分サイズ、右にずらす */
+}
+
+
+.ThisHead{
+    font-family: "Phosphate", sans-serif;
+    margin-top: 60px;
+    letter-spacing: 10px;
+    font-size: 40px;
+
 }
