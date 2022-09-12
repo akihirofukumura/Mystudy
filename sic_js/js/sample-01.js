@@ -31,4 +31,4 @@ num1 = prompt("数値を入力してください")
 num2 = prompt("数値を入力してください")
 console.log(num1 +"÷"+num2+"="+Math.round(num1/num2)+"余り"+num1%num2);
 // 
-console.log(`${num1} ÷ ${num2} = ${Math.round(num1/num2)} 余り ${nu1%num2}`)
+console.log(`${num1} ÷ ${num2} = ${Math.round(num1/num2)} 余り ${num1%num2}`)
