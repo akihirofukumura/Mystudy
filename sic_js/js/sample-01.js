@@ -20,4 +20,6 @@ console.log(Math.round(100/3))
 console.log(100 +"÷" +3 +" = " + Math.round(100/3) + "余り"+ 100%3);
 
 // 200 ÷ 3 = 66余り2
-console.log(200 +"÷"+3+"="+Math.round(200/3)+"余り"+200%3);
+let num1 = 300;
+let num2 = 1;
+console.log(num1 +"÷"+num2+"="+Math.round(num1/num2)+"余り"+num1%num2);
