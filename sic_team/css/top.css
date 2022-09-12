@@ -6,6 +6,12 @@
 .Background{
     background: url(../images/background_img.png);
     background-size: contain;
+    height: 801px;
+}
+
+.Logo{
+    width: 320px;
+    height: 117px;
 }
 
 .btn {
@@ -16,7 +22,8 @@
     color: white;
 }  
 
-.Logo{
-    width: 320px;
-    height: 117px;
+.Catchcopy{
+    font-size: 16px;
+    font-family: "Rounded Mplus 1c",sans-serif ;
+    text-align: center;
 }
