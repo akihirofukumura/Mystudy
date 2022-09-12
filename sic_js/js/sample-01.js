@@ -17,4 +17,7 @@ console.log((100+2)*10);
 // Math > 算術を提供
 console.log(Math.round(100/3))
 
-console.log("100/3=33余り3")
+console.log(100 +"÷" +3 +" = " + Math.round(100/3) + "余り"+ 100%3);
+
+// 200 ÷ 3 = 66余り2
+console.log(200 +"÷"+3+"="+Math.round(200/3)+"余り"+200%3);
