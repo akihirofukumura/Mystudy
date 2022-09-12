@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.Background{
+    background: url(../images/background_img.png);
+    background-size: contain;
+}
+
 .btn {
     border-radius: 5px;
     background-color: lightblue;
