@@ -21,5 +21,12 @@ console.log(100 +"÷" +3 +" = " + Math.round(100/3) + "余り"+ 100%3);
 
 // 200 ÷ 3 = 66余り2
 let num1 = 300;
-let num2 = 1;
+    num2 = 1;
+console.log(num1 +"÷"+num2+"="+Math.round(num1/num2)+"余り"+num1%num2);
+
+// Window.prompt()
+// データ入力を表示
+// 入力されたデータを返す
+num1 = prompt("数値を入力してください")
+num2 = prompt("数値を入力してください")
 console.log(num1 +"÷"+num2+"="+Math.round(num1/num2)+"余り"+num1%num2);
