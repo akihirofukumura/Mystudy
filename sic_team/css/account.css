@@ -1,15 +1,16 @@
 @charset "UTF-8";
 
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
-body{
+body {
     background-color: #FFE2AB;
 }
 
-.Background{
+.Background {
     background: url(../images/background_img.png);
     background-size: contain;
     /* height: 100vh; */
@@ -17,24 +18,76 @@ body{
     width: 100%;
 }
 
-.Account{
+.Account {
     display: flex;
     flex-flow: column;
     align-items: center;
     padding-top: 66px;
 }
-.Mail{
+
+.Mail {
     text-align: center;
-    width: 275px;
+    width: 320px;
+    height: 40px;
     /* padding: 73px; */
-    border: #634C37 1px solid ;
+    border: #634C37 1px solid;
     margin-top: 73px;
+    background-color: #FFFF;
+
 }
 
-.AccountWrap{
+.AccountWrap {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding-top: 66px;
+    padding-top: 48px;
+}
 
+.TextOr {
+    font-size: 16px;
+
+}
+
+/* ここから線 */
+
+.TextOr {
+    display: flex;
+    align-items: center;
+    /* 垂直中心 */
+    justify-content: center;
+    /* 水平中心 */
+}
+
+.TextOr:before,
+.TextOr:after {
+    border-top: 1px solid;
+    content: "";
+    width: 5em;
+    /* 線の長さ */
+}
+
+.TextOr:before {
+    margin-right: 1em;
+    /* 文字の右隣 */
+}
+
+.TextOr:after {
+    margin-left: 1em;
+    /* 文字の左隣 */
+}
+
+.Google{
+    display: block;
+    border: 1px  solid #634C37;
+    width: 320px;
+    height: 40px;
+    text-align: center;
+}
+
+.Google > button{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    background-color: #FFFF;
 }
