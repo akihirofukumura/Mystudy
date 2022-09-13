@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-html,
-body {
+html,body {
     height: 100%;
     width: 100%;
 }
@@ -147,6 +146,8 @@ button{
     width: 100%;
     display: flex;
     justify-content: center;
+    position:absolute;
+    bottom: 57px;
     /* margin-top: px; */
     /* margin-bottom: 91px; */
 }
@@ -158,6 +159,7 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     bottom: 91px;
+    width: 100%;
 }
 
     

@@ -5,6 +5,10 @@ html,body{
     height: 100%;
 }
 
+body {
+    background-color: #FFE2AB;
+}
+
 .Background{
     background: url(../images/background_img.png);
     background-size: contain;
@@ -36,13 +40,22 @@ html,body{
     margin-right: auto;
 }
 
-button{
+.button{
     display: flex;
-    width: 220px;
-    height: 56px;
+    display: block;
     /* border: solid 1px black; */
-    margin: auto;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 91px;
+    width: 100%;
     }
+
+.button button {
+    display: block;
+    margin: 0 auto;
+}
 
 .btn {
     display: block;
