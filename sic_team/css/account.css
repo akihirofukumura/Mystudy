@@ -19,7 +19,14 @@ body{
 
 .account{
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     align-items: center;
     padding-top: 66px;
+}
+.Mail{
+    text-align: center;
+    width: 275px;
+    /* padding: 73px; */
+    border: #634C37 1px solid ;
+
 }
