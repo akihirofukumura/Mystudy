@@ -4,3 +4,16 @@ html,body {
     height: 100%;
     width: 100%;
 }
+
+body {
+    background-color: #FFE2AB;
+}
+
+
+.background{
+    background: url(../images/background_img.png);
+    background-size: contain;
+    /* height: 100vh; */
+    height: 100%;
+    width: 100%;
+}
