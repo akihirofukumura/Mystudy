@@ -37,12 +37,12 @@ html,body{
 }
 
 button{
-    display: block;
+    display: flex;
     width: 220px;
     height: 56px;
     /* border: solid 1px black; */
     margin: auto;
-}
+    }
 
 .btn {
     display: block;
@@ -64,8 +64,4 @@ button{
     font-family: "Rounded Mplus 1c",sans-serif ;
     text-align: center;
     letter-spacing: 10%;
-}
-
-.Start{
-    margin-top: 30px;
 }
