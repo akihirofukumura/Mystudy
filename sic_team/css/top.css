@@ -30,7 +30,8 @@ html,body{
 .Logo{
     width: 320px;
     height: auto;
-    margin-bottom: 268px;
+    /* margin-bottom: 268px; */
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -45,8 +46,8 @@ button{
 
 .btn {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 220px;
+    height: 56px;
     background-color: #B8D682;
     text-decoration: none;
     color: #634C37;
@@ -56,7 +57,6 @@ button{
     border-left: #634C37 solid 1px;
     border-right: #634C37 solid 1px;
     border-bottom: #634C37 solid 3px;
-    
 }  
 
 .Catchcopy{
@@ -64,4 +64,8 @@ button{
     font-family: "Rounded Mplus 1c",sans-serif ;
     text-align: center;
     letter-spacing: 10%;
+}
+
+.Start{
+    margin-top: 30px;
 }
