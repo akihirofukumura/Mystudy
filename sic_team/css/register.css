@@ -67,6 +67,12 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+.lock_icon{
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 74px;
+}
+
 .next{
     /* border: tomato 1px solid; */
     position: absolute;
