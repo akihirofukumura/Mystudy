@@ -36,6 +36,12 @@ body {
     text-align: center;
 }
 
+.person_icon{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+
 .name{
     text-align: center;
     width: 320px;
