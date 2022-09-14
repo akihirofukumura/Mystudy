@@ -18,7 +18,7 @@ body {
     width: 100%;
 }
 
-.new_register{
+.new_Register{
     font-size: 24px;
     display: flex;
     flex-flow: column;
@@ -77,3 +77,14 @@ body {
     border-right: #634C37 solid 1px;
     border-bottom: #634C37 solid 3px;
 }  
+
+.policy{
+    /* display: block; */
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin: auto;
+}
