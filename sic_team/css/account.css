@@ -33,6 +33,8 @@ body {
     margin-top: 73px;
     background-color: #FFFF;
     border-radius: 2px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 14px;
 }
 
 
@@ -45,7 +47,7 @@ body {
 
 .TextOr {
     font-size: 16px;
-
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 /* ここから線 */
@@ -84,6 +86,8 @@ body {
     text-align: center;
     margin-top: 48px;
     border-radius: 4px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 14px;
 }
 
 .Google > button{
@@ -106,6 +110,7 @@ body {
 .Password{
     color: #634C37;
     font-size: 12px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 button{
@@ -124,7 +129,8 @@ button{
     background-color: #B8D682;
     text-decoration: none;
     color: #634C37;
-    padding: 13px 0px;
+    padding: 8px 0px;
+    padding-left: 6px;
     border-radius: 10px;
     border-top: #634C37 solid 1px;
     border-left: #634C37 solid 1px;
@@ -132,6 +138,9 @@ button{
     border-bottom: #634C37 solid 3px;
     /* margin-top: 228px; */
     margin: auto;
+    font-size: 24px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    letter-spacing: 5px;
 }
 
 .Account_nav{
@@ -140,6 +149,7 @@ button{
     color: #634C37;
     display: block;
     margin-top: 16px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .Account_navWrap{
