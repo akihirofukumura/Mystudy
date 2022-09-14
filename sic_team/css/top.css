@@ -64,12 +64,14 @@ body {
     background-color: #B8D682;
     text-decoration: none;
     color: #634C37;
-    padding: 13px 0px;
+    padding: 8px 0px;
     border-radius: 10px;
     border-top: #634C37 solid 1px;
     border-left: #634C37 solid 1px;
     border-right: #634C37 solid 1px;
     border-bottom: #634C37 solid 3px;
+    font-size: 24px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }  
 
 .Catchcopy{
