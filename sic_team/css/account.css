@@ -89,6 +89,14 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 14px;
 }
+.google_icon{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+
 
 .Google > button{
     display: block;
@@ -128,7 +136,7 @@ button{
     /* margin-bottom: 90px; */
     margin: 0 auto;
     margin-top: 114px;
-    margin-left: -130px;
+    margin-left: -135px;
 }
 
 .btn{
