@@ -6,6 +6,7 @@ html,body {
 }
 
 body {
+    /* font-family: 'M PLUS Rounded 1c', sans-serif; */
     background-color: #FFE2AB;
 }
 
@@ -24,6 +25,9 @@ body {
     flex-flow: column;
     align-items: center;
     padding-top: 66px;
+    color: #634C37;
+    letter-spacing: 5px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .text{
@@ -40,6 +44,8 @@ body {
     border: #634C37 2px solid;
     background-color: #FFFF;
     border-radius: 2px;
+    font-size: 14px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .password{
@@ -51,6 +57,8 @@ body {
     background-color: #FFFF;
     border-radius: 2px;
     margin-top: 16px;
+    font-size: 14px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .next{
@@ -70,12 +78,15 @@ body {
     background-color: #B8D682;
     text-decoration: none;
     color: #634C37;
-    padding: 13px 0px;
+    padding: 9px 0px;
     border-radius: 10px;
     border-top: #634C37 solid 1px;
     border-left: #634C37 solid 1px;
     border-right: #634C37 solid 1px;
     border-bottom: #634C37 solid 3px;
+    font-size: 24px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    letter-spacing: 5px;
 }  
 
 .policy{
@@ -87,4 +98,9 @@ body {
     right: 0;
     bottom: 40px;
     margin: auto;
+}
+
+.policy_Wrap{
+    color: #634C37;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
