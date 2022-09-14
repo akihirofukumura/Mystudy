@@ -121,6 +121,16 @@ button{
     margin: auto;
 }
 
+.icon_mail{
+    display: block;
+    position: absolute;
+    /* margin: 0 auto;    */
+    /* margin-bottom: 90px; */
+    margin: 0 auto;
+    margin-top: 114px;
+    margin-left: -130px;
+}
+
 .btn{
     display: block;
     margin: 0 auto;

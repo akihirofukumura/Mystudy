@@ -40,6 +40,11 @@ body {
     margin-right: auto;
 }
 
+.icon_mail{
+    position: absolute;
+    margin-right: 30px;
+}
+
 .button{
     display: flex;
     display: block;
