@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-html,body{
+html,
+body {
     width: 100%;
     height: 100%;
 }
@@ -9,15 +10,16 @@ body {
     background-color: #FFE2AB;
 }
 
-.Background{
+.Background {
     background: url(../images/background_img.png);
     background-size: contain;
     /* height: 100vh; */
     height: 100%;
     width: 100%;
+    animation: bg 10s infinite linear;
 }
 
-.flex_wrap{
+.flex_wrap {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -31,7 +33,7 @@ body {
     margin: auto;
 }
 
-.Logo{
+.Logo {
     width: 320px;
     height: auto;
     /* margin-bottom: 268px; */
@@ -40,7 +42,7 @@ body {
     margin-right: auto;
 }
 
-.button{
+.button {
     display: flex;
     display: block;
     /* border: solid 1px black; */
@@ -50,7 +52,7 @@ body {
     position: absolute;
     bottom: 91px;
     width: 100%;
-    }
+}
 
 .button button {
     display: block;
@@ -72,13 +74,23 @@ body {
     border-bottom: #634C37 solid 3px;
     font-size: 24px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-}  
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+}
 
-.Catchcopy{
+.button:hover .btn {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+}
+
+.button:active .btn {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+}
+
+.Catchcopy {
     font-size: 16px;
-    font-family: "Rounded Mplus 1c",sans-serif ;
+    font-family: "Rounded Mplus 1c", sans-serif;
     text-align: center;
     letter-spacing: 10%;
 }
-
-
