@@ -27,3 +27,15 @@ img{
     max-width: 100%;
     border-style: none;
 }
+
+#header ul{
+    display: flex;
+}
+
+#header li{
+    margin-left: 30px;
+}
+
+li{
+    list-style: none;
+}
