@@ -30,6 +30,7 @@ img{
 
 #header ul{
     display: flex;
+    padding: 10px 0;
 }
 
 #header li{
