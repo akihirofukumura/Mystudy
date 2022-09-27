@@ -22,3 +22,8 @@
     line-height: 1px;
     padding: 10px 0;
 }
+
+img{
+    max-width: 100%;
+    border-style: none;
+}
