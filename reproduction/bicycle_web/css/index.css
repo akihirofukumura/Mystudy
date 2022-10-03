@@ -99,3 +99,7 @@ a{
     margin: 10px 0;
 }
 
+#bicycle ul{
+    display: flex;
+    justify-content: space-between;
+}
