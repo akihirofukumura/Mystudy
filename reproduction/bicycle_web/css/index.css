@@ -68,3 +68,11 @@ a{
     height: 600px;
     object-fit: cover;
 }
+
+.section-title{
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 60px;
+    border-bottom: solid 1px #383e45;
+}
