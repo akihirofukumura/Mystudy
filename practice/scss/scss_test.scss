@@ -7,3 +7,14 @@ $main-color: tomato;
     color: $main-color
   }
 }
+
+.button{
+  background-color: #0bd;
+
+  &.mb{
+    margin-bottom: 20px;
+  }
+  &:hover{
+    background-color: tomato;
+  }
+}

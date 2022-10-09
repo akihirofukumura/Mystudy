@@ -4,4 +4,14 @@
 .nav a {
   color: tomato;
 }
+
+.button {
+  background-color: #0bd;
+}
+.button.mb {
+  margin-bottom: 20px;
+}
+.button:hover {
+  background-color: tomato;
+}
 /*# sourceMappingURL=scss_test.css.map */
