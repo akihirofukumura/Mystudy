@@ -20,3 +20,16 @@ $main-color: tomato;
     text-decoration: underline;
   }
 }
+
+.post{
+  margin-bottom: 20px;
+  border: solid 1px tomato;
+  &-title{
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #0bd;
+  }
+  &-date{
+    color: tomato;
+  }
+}
