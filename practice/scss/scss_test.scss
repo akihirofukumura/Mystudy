@@ -9,6 +9,12 @@ $main-color: tomato;
   .font:hover{
     color: #0bd;
   }
+  ul{
+    display: flex;
+  }
+  li{
+    list-style: none;
+  }
 }
 
 .button{
