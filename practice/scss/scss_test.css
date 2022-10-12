@@ -4,6 +4,9 @@
 .nav a {
   color: tomato;
 }
+.nav .font:hover {
+  color: #0bd;
+}
 
 .button {
   background-color: #0bd;
