@@ -2,7 +2,6 @@ $main-color: tomato;
 
 .nav{
   padding: 10px;
-
   a{
     color: $main-color
   }
@@ -11,6 +10,7 @@ $main-color: tomato;
   }
   ul{
     display: flex;
+    justify-content: space-around;
   }
   li{
     list-style: none;
