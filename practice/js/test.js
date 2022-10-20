@@ -7,6 +7,6 @@ console.dir(document.getElementById("txt"));
 // }
 
 btn.addEventListener("click",()=>{
-  alert("ボタンが押されまいした")
+  alert("ボタンが押されました")
 })
 
