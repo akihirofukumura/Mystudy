@@ -1,12 +1,12 @@
 //dirでタグがどこにあるのか構造を見れる
 const btn = document.getElementById("btn");
+const txt = document.getElementById("txt");
+const form = document.getElementById("txt_form");
+
 console.dir(document.getElementById("txt"));
 
-// if (btn.onclick) {
-//   alert("ボタンが押されました")
-// }
 
 btn.addEventListener("click",()=>{
-  alert("ボタンが押されました")
+  txt.value + form;
 })
 
