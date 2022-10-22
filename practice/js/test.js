@@ -7,7 +7,7 @@ console.dir(document.getElementById("txt"));
 
 
 btn.addEventListener("click",()=>{
-  form.innerHTML = 'おはよう、${text.value}さん'
+  form.innerHTML = `${txt.value}よろしくお願いします`
 })
 
 
