@@ -6,14 +6,19 @@ html{
 
 body{
   background-color: skyblue;
+  list-style: none;
 }
+
 
 a{
   color: #fff;
   text-decoration: none;
 }
 
-main nav>ul:first-child{
-  background-color: tomato;
-  display: inline-block;
+ul{
+  list-style: none;
+}
+
+nav{
+  text-align: center;
 }
