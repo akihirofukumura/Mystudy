@@ -3,3 +3,17 @@
 html{
   font-size: 61.5%;
 }
+
+body{
+  background-color: skyblue;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+main nav>ul:first-child{
+  background-color: tomato;
+  display: inline-block;
+}
