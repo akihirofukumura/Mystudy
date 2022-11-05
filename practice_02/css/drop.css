@@ -1,17 +1,12 @@
 @charset "UTF-8";
 
-html{
-  font-size: 61.5%;
-}
-
 body{
-  background-color: skyblue;
   list-style: none;
 }
 
 
 a{
-  color: #fff;
+  color: tomato;
   text-decoration: none;
 }
 
@@ -19,6 +14,3 @@ ul{
   list-style: none;
 }
 
-nav{
-  text-align: center;
-}
