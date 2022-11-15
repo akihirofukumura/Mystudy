@@ -9,14 +9,15 @@ li {
 }
 
 main {
+  width: 600px;
   height: 300px;
+  margin: 0 auto;
 }
 
 main nav {
   display: flex;
-  gap: 25px;
-  justify-content: center;
   margin-top: 30px;
+  justify-content: space-between;
 }
 
 main nav > ul:first-child {
