@@ -9,17 +9,22 @@ li {
 }
 
 main {
-  width: 600px;
-  height: 300px;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
-main nav {
+main nav > ul {
   display: flex;
-  margin-top: 30px;
-  justify-content: space-between;
 }
 
 main nav > ul:first-child {
+  background-color: tomato;
+}
+
+main nav > ul:nth-of-type(n + 2):nth-of-type(-n + 4) {
+  background-color: skyblue;
+}
+
+main nav > ul:last-child {
   background-color: tomato;
 }
