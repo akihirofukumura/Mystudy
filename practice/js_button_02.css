@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+html {
+  height: 100%;
+  background: linear-gradient(rgb(28, 153, 181), rgb(177, 39, 122));
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: rgb(215, 209, 209);
+}
+
+.text {
+  width: 450px;
+  height: 70px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  border: rgb(64, 61, 175) 5px solid;
+}
