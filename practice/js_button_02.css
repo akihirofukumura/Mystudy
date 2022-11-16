@@ -53,3 +53,10 @@ h1 {
   background-color: rgb(183, 192, 207);
   border: rgb(152, 144, 142) 2px solid;
 }
+
+.yourName {
+  font-size: 30px;
+  /* border: tomato 1px solid; */
+  text-align: center;
+  margin-top: 40px;
+}
