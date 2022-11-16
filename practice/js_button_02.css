@@ -5,6 +5,14 @@ html {
   background: linear-gradient(rgb(28, 153, 181), rgb(177, 39, 122));
 }
 
+.wrap {
+  width: 100%;
+  height: 500px;
+  margin-top: 160px;
+  background-color: rgba(85, 86, 124, 0.496);
+  border: rgb(215, 211, 211) 0.5px solid;
+}
+
 h1 {
   font-size: 60px;
   text-align: center;
@@ -32,6 +40,16 @@ h1 {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
+  background-color: rgb(183, 192, 207);
+  border: rgb(152, 144, 142) 2px solid;
+}
+
+.btn_clear {
+  width: 80px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
   background-color: rgb(183, 192, 207);
   border: rgb(152, 144, 142) 2px solid;
 }
