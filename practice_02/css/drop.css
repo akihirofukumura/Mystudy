@@ -7,24 +7,10 @@ a {
 li {
   list-style: none;
 }
-
-main {
-  width: 100%;
-  height: 100%;
+a {
+  text-decoration: none;
 }
 
-main nav > ul {
-  display: flex;
-}
-
-main nav > ul:first-child {
-  background-color: tomato;
-}
-
-main nav > ul:nth-of-type(n + 2):nth-of-type(-n + 4) {
-  background-color: skyblue;
-}
-
-main nav > ul:last-child {
-  background-color: tomato;
+li {
+  list-style: none;
 }
