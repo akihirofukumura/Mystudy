@@ -2,7 +2,6 @@
 
 html {
   font-size: 62%;
-  color: #fff;
 }
 
 li {
@@ -11,6 +10,7 @@ li {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
 nav {
   width: 100%;
   height: 800px;
-  border: skyblue 1px solid;
+  /* border: skyblue 1px solid; */
 }
 
 main nav > ul {
@@ -40,7 +40,7 @@ main .allWrap > li:first-child {
   width: 80px;
   height: 40px;
   padding: 8px;
-  background-color: aqua;
+  background-color: tomato;
 }
 
 main .allWrap > li {
