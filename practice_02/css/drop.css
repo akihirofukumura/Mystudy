@@ -5,6 +5,14 @@ html {
   color: #fff;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 h1 {
   background-color: rgb(34, 22, 68);
   font-size: 1.5em;
@@ -22,9 +30,21 @@ main nav > ul {
   display: flex;
   /* align-items: center; */
   font-size: 1.5em;
-  justify-content: space-between;
   margin-top: 300px;
   margin-right: auto;
   margin-left: auto;
   border: tomato 1px solid;
+}
+
+main .allWrap > li:first-child {
+  width: 80px;
+  height: 40px;
+  padding: 8px;
+  background-color: aqua;
+}
+
+main .allWrap > li {
+  width: 120px;
+  background-color: black;
+  text-align: center;
 }
