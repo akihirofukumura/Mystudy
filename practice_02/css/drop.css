@@ -45,6 +45,8 @@ main .allWrap > li:first-child {
 
 main .allWrap > li {
   width: 120px;
+  height: 40px;
+  padding: 8px;
   background-color: black;
   text-align: center;
 }
