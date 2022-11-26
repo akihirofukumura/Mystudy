@@ -34,7 +34,7 @@ main nav > ul {
   margin-top: 300px;
   margin-right: auto;
   margin-left: auto;
-  border: tomato 1px solid;
+  /* border: tomato 1px solid; */
 }
 
 main .allWrap > li:first-child {
@@ -50,4 +50,17 @@ main .allWrap > li {
   padding: 8px;
   background-color: black;
   text-align: center;
+  position: relative;
+}
+
+.anotherWrap {
+  position: absolute;
+  background-color: rgba(107, 104, 117, 0.98);
+  text-align: center;
+  width: 130px;
+  height: 100px;
+  padding: 8px;
+  margin-top: 9px;
+  margin-left: -8px;
+  /* border: tomato 1px solid; */
 }
