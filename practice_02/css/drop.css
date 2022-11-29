@@ -62,6 +62,12 @@ main .allWrap > li {
   padding: 8px;
   margin-top: 9px;
   margin-left: -8px;
-  line-height: 30px;
   /* border: tomato 1px solid; */
+}
+
+.anotherWrap li:nth-of-type(1),
+.anotherWrap li:nth-of-type(2) {
+  /* background-color: skyblue; */
+  line-height: 25px;
+  border-bottom: tomato 2px dotted;
 }
