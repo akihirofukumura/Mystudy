@@ -71,3 +71,15 @@ main .allWrap > li {
   line-height: 25px;
   border-bottom: tomato 2px dotted;
 }
+
+.allWrap li:first-child {
+  border-left: none;
+}
+
+.allWrap li:last-child {
+  border-right: none;
+}
+
+.allWrap > li {
+  border-right: 1px tomato solid;
+}
