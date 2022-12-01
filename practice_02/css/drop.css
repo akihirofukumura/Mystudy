@@ -69,32 +69,18 @@ main .allWrap > li {
 }
 
 /* サブナビhover時 */
-.office:hover .anotherWrap {
+.allWrap li:hover .anotherWrap {
   display: block;
 }
-
-.about:hover .anotherWrap {
-  display: block;
-}
-
-.recruit:hover .anotherWrap {
-  display: block;
-}
-
-.recruit:hover .anotherWrap {
-  display: block;
-}
-
-.contact:hover .anotherWrap {
-  display: block;
-}
-
 .anotherWrap li:nth-of-type(1),
 .anotherWrap li:nth-of-type(2) {
   /* background-color: skyblue; */
   line-height: 25px;
   border-bottom: tomato 2px dotted;
 }
+/* 上の疑問点の解説
+この.anotherWrap li:hover.anotherWrap でもanotherWrapすべての要素が出ないのは
+liの要素の中にあるものしか表示されないから他のところにある要素はその特定の要素にないから。 */
 
 /* ボーダーの横線など */
 .allWrap li:first-child {
