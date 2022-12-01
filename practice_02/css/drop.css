@@ -69,7 +69,7 @@ main .allWrap > li {
 }
 
 /* サブナビhover時 */
-.main .allWrap > li :hover + .anotherWrap {
+.office:hover .anotherWrap {
   display: block;
 }
 
