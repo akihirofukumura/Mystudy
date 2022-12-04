@@ -59,13 +59,17 @@ main .allWrap > li {
   background-color: rgba(107, 104, 117, 0.98);
   text-align: center;
   width: 130px;
-  height: 100px;
+  height: 140px;
   padding: 8px;
   margin-top: 9px;
   margin-left: -8px;
   display: none;
   /* display: none; */
   /* border: tomato 1px solid; */
+}
+
+.anotherWrap > li {
+  padding: 8px;
 }
 
 /* サブナビhover時 */
