@@ -82,6 +82,11 @@ main .allWrap > li {
 この.anotherWrap li:hover.anotherWrap でもanotherWrapすべての要素が出ないのは
 liの要素の中にあるものしか表示されないから他のところにある要素はその特定の要素にないから。 */
 
+/* メインナビのホバー時カラー */
+main .allWrap > li:hover {
+  background-color: rgba(107, 104, 117, 0.98);
+}
+
 /* ボーダーの横線など */
 .allWrap li:first-child {
   border-left: none;
