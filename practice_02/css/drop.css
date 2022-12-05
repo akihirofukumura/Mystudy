@@ -60,7 +60,7 @@ main .allWrap > li {
   text-align: center;
   width: 130px;
   height: 140px;
-  padding: 8px;
+  /* padding: 8px; */
   margin-top: 9px;
   margin-left: -8px;
   display: none;
@@ -69,7 +69,7 @@ main .allWrap > li {
 }
 
 .anotherWrap > li {
-  padding: 8px;
+  padding: 10px;
 }
 
 /* サブナビhover時 */
@@ -89,6 +89,11 @@ liの要素の中にあるものしか表示されないから他のところに
 /* メインナビのホバー時カラー */
 main .allWrap > li:hover {
   background-color: rgba(107, 104, 117, 0.98);
+}
+
+/* サブナビのホバー時カラー */
+main .anotherWrap > li:hover {
+  background-color: black;
 }
 
 /* ボーダーの横線など */
