@@ -11,6 +11,8 @@ li {
 a {
   text-decoration: none;
   color: #fff;
+  width: 100%;
+  display: block;
 }
 
 h1 {
@@ -63,13 +65,13 @@ main .allWrap > li {
   /* padding: 8px; */
   margin-top: 9px;
   margin-left: -8px;
-  display: none;
+  /* display: none; */
   /* display: none; */
   /* border: tomato 1px solid; */
 }
 
 .anotherWrap > li {
-  padding: 10px;
+  line-height: 3;
 }
 
 /* サブナビhover時 */
@@ -79,7 +81,7 @@ main .allWrap > li {
 .anotherWrap li:nth-of-type(1),
 .anotherWrap li:nth-of-type(2) {
   /* background-color: skyblue; */
-  line-height: 25px;
+  /* line-height: 25px; */
   border-bottom: tomato 2px dotted;
 }
 /* 上の疑問点の解説
@@ -95,10 +97,10 @@ main .allWrap > li:first-child:hover {
 }
 
 /* サブナビのホバー時カラー */
-main .anotherWrap > li:hover {
-  background-color: black;
+main .anotherWrap > li a:hover {
+  background-color: rgb(242, 237, 237);
+  color: #111;
 }
-
 /* ボーダーの横線など */
 .allWrap li:first-child {
   border-left: none;
