@@ -96,6 +96,11 @@ main .allWrap > li:first-child:hover {
   background-color: rgb(189, 94, 78);
 }
 
+main .anotherWrap > li a:hover,
+main .allWrap > li:hover {
+  background-color: rgba(68, 60, 58, 0.98);
+}
+
 /* サブナビのホバー時カラー */
 main .anotherWrap > li a:hover {
   background-color: rgb(242, 237, 237);
