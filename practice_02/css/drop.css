@@ -49,7 +49,8 @@ main .allWrap > li:first-child {
 main .allWrap > li {
   width: 130px;
   height: 40px;
-  padding: 8px;
+  /* padding: 8px; */
+  line-height: 3;
   background-color: black;
   text-align: center;
   position: relative;
@@ -65,8 +66,7 @@ main .allWrap > li {
   /* padding: 8px; */
   margin-top: 9px;
   margin-left: -8px;
-  /* display: none; */
-  /* display: none; */
+  display: none;
   /* border: tomato 1px solid; */
 }
 
@@ -89,18 +89,16 @@ main .allWrap > li {
 liの要素の中にあるものしか表示されないから他のところにある要素はその特定の要素にないから。 */
 
 /* メインナビのホバー時カラー */
-main .allWrap > li:hover {
+main .allWrap > li a:hover {
   background-color: rgba(117, 107, 104, 0.98);
 }
 main .allWrap > li:first-child:hover {
   background-color: rgb(189, 94, 78);
 }
 
-main .anotherWrap > li a:hover,
-main .allWrap > li:hover {
-  background-color: rgba(68, 60, 58, 0.98);
+main .anotherWrap > li a:hover + main .allWrap > li {
+  background-color: #111;
 }
-
 /* サブナビのホバー時カラー */
 main .anotherWrap > li a:hover {
   background-color: rgb(242, 237, 237);
