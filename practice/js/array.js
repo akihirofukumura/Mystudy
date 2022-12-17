@@ -1,5 +1,6 @@
-console.log("Hello");
+const num = [100, 200, 300];
+const fours = num.push(400);
 
-let num = [100, 200, 300];
+console.log(fours);
 
-console.log(num[0]);
+console.log(num);
