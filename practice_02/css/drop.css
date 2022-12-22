@@ -42,7 +42,6 @@ main nav > ul {
 main .allWrap > li:first-child {
   width: 80px;
   height: 40px;
-  padding: 8px;
   background-color: tomato;
 }
 
