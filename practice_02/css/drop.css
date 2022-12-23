@@ -64,7 +64,7 @@ main .allWrap > li {
   height: 140px;
   display: none;
   margin-top: -5px;
-  border: tomato 1px solid;
+  /* border: tomato 1px solid; */
 }
 
 .anotherWrap > li {
