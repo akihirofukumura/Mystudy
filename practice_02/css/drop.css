@@ -86,12 +86,12 @@ main .allWrap > li {
 liの要素の中にあるものしか表示されないから他のところにある要素はその特定の要素にないから。 */
 
 /* メインナビのホバー時カラー */
-main .allWrap > li a:hover {
+main .allWrap li a:hover {
   background-color: rgba(117, 107, 104, 0.98);
 }
-main .allWrap > li:first-child:hover {
+/* main .allWrap li:first-child:hover {
   background-color: rgb(189, 94, 78);
-}
+} */
 
 main .anotherWrap > li a:hover + main .allWrap > li {
   background-color: #111;
