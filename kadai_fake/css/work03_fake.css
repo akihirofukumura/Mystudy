@@ -6,6 +6,11 @@
 .mainImg h1 {
   text-align: center;
   line-height: 650px;
-  font-size: 5em;
+  font-size: 7em;
   font-family: "Courier New", Courier, monospace;
+}
+/* h1のレスポンシブ */
+@media screen and (max-width: 1000px) {
+  .mainImg h1 {
+  }
 }
