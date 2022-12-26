@@ -1,0 +1,11 @@
+.mainImg {
+  height: 650px;
+  border: tomato 2px solid;
+}
+
+.mainImg h1 {
+  text-align: center;
+  line-height: 650px;
+  font-size: 5em;
+  font-family: "Courier New", Courier, monospace;
+}
