@@ -6,7 +6,7 @@ h1 {
 }
 .mainImg {
   height: 650px;
-  border: tomato 2px solid;
+  /* border: tomato 2px solid; */
   animation: mainBgcolor 15s infinite;
 }
 
@@ -46,4 +46,22 @@ h1 {
     overflow: hidden;
     /* border: tomato 1px solid; */
   }
+}
+
+.btnWrap {
+  display: flex;
+  height: 350px;
+  border: rgb(9, 128, 255) 5px solid;
+}
+
+.buttonBase {
+  width: 50%;
+  height: 100%;
+  border: tomato 1px solid;
+}
+
+.buttonLink {
+  width: 50%;
+  height: 100%;
+  border: tomato 1px solid;
 }
