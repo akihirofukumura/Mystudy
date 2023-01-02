@@ -1,3 +1,9 @@
+h1 {
+  font-size: 18px;
+  background-color: #414242;
+  color: #fff;
+  padding: 10px;
+}
 .mainImg {
   height: 650px;
   border: tomato 2px solid;
