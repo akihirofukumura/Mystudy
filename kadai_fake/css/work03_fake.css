@@ -1,9 +1,32 @@
 .mainImg {
   height: 650px;
   border: tomato 2px solid;
+  animation: mainBgcolor 15s infinite;
 }
 
-.mainImg h1 {
+/* ここからmainImgの背景アニメーションの設定 */
+@keyframes mainBgcolor {
+  0% {
+    background-color: #8de0e3;
+  }
+  20% {
+    background-color: #e3b28d;
+  }
+  40% {
+    background-color: #e38d8d;
+  }
+  60% {
+    background-color: #e3e38d;
+  }
+  80% {
+    background-color: #ae8de3;
+  }
+  100% {
+    background-color: #e3dd8d;
+  }
+}
+
+.mainImg p {
   text-align: center;
   line-height: 650px;
   font-size: 7em;
@@ -11,7 +34,7 @@
 }
 /* h1のレスポンシブ */
 @media screen and (max-width: 2000px) {
-  .mainImg h1 {
+  .mainImg p {
     height: 500px;
     font-size: 6em;
     overflow: hidden;
