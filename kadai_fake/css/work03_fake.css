@@ -84,6 +84,10 @@ h1 {
   border: tomato 1px solid;
 }
 
+.buttonLink:hover {
+  background-color: #d687eb;
+}
+
 .buttonLink > a {
   text-decoration: none;
   color: #fff;
