@@ -80,5 +80,14 @@ h1 {
 .buttonLink {
   width: 50%;
   height: 100%;
+  background-color: #87ceeb;
   border: tomato 1px solid;
+}
+
+.buttonLink > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  border: #fff solid 1px;
+  padding: 20px 250px;
 }
