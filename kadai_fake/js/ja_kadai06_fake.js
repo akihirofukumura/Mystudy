@@ -5,3 +5,5 @@ const prev = document.getElementById("prev");
 // 画像を取得
 const img = document.querySelectorAll("#slider li img");
 console.log(img);
+
+next.addEventListener("click", () => {});
