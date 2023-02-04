@@ -8,14 +8,6 @@ const img = document.querySelectorAll("#slider li img");
 const imgWrap = document.querySelectorAll("#slider li");
 //画像の最大枚数 img.length
 
-// アニメーションのKeyframe作成
-const keyframe = [
-  { transform: all },
-  {
-    opacity: 0,
-  },
-];
-
 //箱をつくる。0にすることで最大枚数に達したときにも戻ってくる
 let num = 0;
 //クリックイベント
@@ -26,7 +18,6 @@ next.addEventListener("click", () => {
   } else {
     num = 0;
   }
-  imgWrap[num].animate(keyframe, 3000);
   imgWrap[num].style.display = "block";
 });
 prev.addEventListener("click", () => {
