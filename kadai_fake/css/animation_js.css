@@ -1,4 +1,4 @@
-body {
+.allWrap {
   width: 100%;
   height: 100%;
   background-color: rgb(232, 151, 134);
@@ -20,6 +20,16 @@ div .text {
   font-size: 1.5em;
   padding: 22px 0;
   text-align: center;
+}
+
+a {
+  width: 100%;
+  height: 100%;
+  padding: 13px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
 }
 
 .textBtn {
