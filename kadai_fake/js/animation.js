@@ -15,9 +15,9 @@ const keyframes = {
 
 // console.log(colorAnimation);/animation_js.html
 // console.log(bgColor);
-btn.addEventListener("mousedown", () => {
+btn.addEventListener("click", () => {
   bgColor.animate(keyframes, 3000);
 });
-btn.addEventListener("mouseup", () => {
-  bgColor.animate(keyframes, 3000);
+btn.addEventListener("animationend", () => {
+  // bgColor.animate(keyframes, 3000);
 });
