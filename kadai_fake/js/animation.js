@@ -6,18 +6,8 @@
 
 const bgColor = document.getElementById("bgColor");
 const btn = document.getElementById("btn");
-const keyframes = {
-  background: ["#fcc"],
-  background: ["#b22"],
-};
 
-// const colorAnimation = bgColor.animate(keyframes, 3000);
-
-// console.log(colorAnimation);/animation_js.html
-// console.log(bgColor);
-btn.addEventListener("click", () => {
-  bgColor.animate(keyframes, 3000);
-});
+btn.addEventListener("click", () => {});
 btn.addEventListener("animationend", () => {
   // bgColor.animate(keyframes, 3000);
 });
