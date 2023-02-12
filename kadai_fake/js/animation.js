@@ -4,10 +4,13 @@
 
 // 暗い赤色から明るくしていく;
 
-const bgColor = document.getElementById("bgColor");
+const allWrap = document.querySelectorAll("#allWrap");
 const btn = document.getElementById("btn");
 
-btn.addEventListener("click", () => {});
-btn.addEventListener("animationend", () => {
-  // bgColor.animate(keyframes, 3000);
+btn.addEventListener("click", () => {
+  if (allWrap.classLisit.contains("allWrap02")) {
+    allWrap.classLisit.remove("allWrap02");
+  } else {
+    allWrap.classLisit.add("allWrap02");
+  }
 });

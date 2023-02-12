@@ -1,10 +1,10 @@
-.allWrap {
+#allWrap {
   width: 100%;
   height: 100%;
-  background-color: rgb(232, 151, 134);
+  background-color: rgb(206, 43, 11);
 }
 
-.allWrap:active {
+.allWrap02 {
   animation: bg-color 5s infinite;
 }
 
