@@ -5,7 +5,7 @@
 }
 
 .allWrap02 {
-  animation: bg-color 5s infinite;
+  animation: bg-color 5s infinite forwards;
 }
 
 @keyframes bg-color {
