@@ -4,12 +4,12 @@
 
 // 暗い赤色から明るくしていく;
 
-const allWrap = document.querySelectorAll("#allWrap");
+const allWrap = document.querySelector("#allWrap");
 const btn = document.getElementById("btn");
 
 btn.addEventListener("click", () => {
   if (allWrap.classList.contains("allWrap02")) {
-    if ((allWrap.style.animationPlayState = "paused")) {
+    if (allWrap.style.animationPlayState == "paused") {
       console.log("スタート");
       allWrap.style.animationPlayState = "running";
     } else {
