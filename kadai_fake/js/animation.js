@@ -7,20 +7,6 @@
 const allWrap = document.querySelector("#allWrap");
 const btn = document.getElementById("btn");
 
-btn.addEventListener("click", () => {
-  if (allWrap.classList.contains("allWrap02")) {
-    if (allWrap.style.animationPlayState == "paused") {
-      console.log("スタート");
-      allWrap.style.animationPlayState = "running";
-    } else {
-      console.log("ストップ");
-      allWrap.style.animationPlayState = "paused";
-    }
-  } else {
-    allWrap.classList.add("allWrap02");
-  }
-});
-
 // btn.addEventListener("click", () => {
 
 // if(allWrap.classList.contains("allWrap02")){
