@@ -7,17 +7,16 @@
 const allWrap = document.querySelector("#allWrap");
 const btn = document.getElementById("btn");
 
-// btn.addEventListener("click", () => {
-
-// if(allWrap.classList.contains("allWrap02")){
-//   if(allWrap.style.animationPlayState == "paused"){
-//     console.log("move")
-//     allWrap.style.animationPlayState = "running";
-//   }
-//   else{
-//     console.log("stop");
-//     allWrap.style.animationPlayState = "paused";
-//   }
-// }
-// else{
-//   allWrap.classList.add("allWrap02");
+btn.addEventListener("click", () => {
+  if (allWrap.classList.contains("allWrap02")) {
+    if (allWrap.style.animationPlayState == "paused") {
+      console.log("strat");
+      allWrap.style.animationPlayState = "running";
+    } else {
+      console.log("stop");
+      allWrap.style.animationPlayState = "paused";
+    }
+  } else {
+    allWrap.classList.add("allWrap02");
+  }
+});
