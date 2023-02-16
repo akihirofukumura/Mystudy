@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+html,body{
+	height: 100%;
+	width: 100%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/bgDecolation.png");
+    background-size: contain;
+    background-color: #FFE2AB;
+    background-repeat: repeat-y;
+    color: #634C37;
+}
+
+header{
+    width: 100%;
+    height: 86px;
+    background-color: gray;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 12px;
+    background-color: #FF7A6B;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.return_btn{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    border: solid 3px #634C37;
+    background-color: #A06834;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin: auto;
+}
+
+.return_btn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 6px 12px;
+}
+
+.return_btn a img{
+    height: 14px;
+    width: auto;
+}
+
+main{
+    padding: 24px;
+}
+
+.profile_wrap{
+    width: 100%;
+    height: 100%;
+    border: solid 3px #634C37;
+    padding: 24px 16px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.icon_name_flexWrap{
+    display: flex;
+    align-items: center;
+}
+
+
+.icon{
+    width: 120px;
+    height: 120px;
+    border: solid 3px #634C37;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: #C3C3C3;
+    margin-right: 8px;
+}
+
+.icon img{
+    width: 100%;
+    height: auto;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.company_work_wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.work_icon_bg{
+    width: 20px;
+    height: 20px;
+    background-color: #634C37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work_icon_bg img{
+    width: 90%;
+    height: auto;
+}
+
+.company_work_wrap_text{
+    width: 133px;
+    margin-left: 8px;
+    color: rgba(99, 76, 55, 0.6);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: lighter;
+}
+
+.company_work_wrap_text::placeholder{
+    color: rgba(99, 76, 55, 0.6);
+    font-size: 12px;
+}
+
+.self_introduction{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.self_introduction p{
+    font-size: 15px;
+}
+
+textarea{
+    padding: 8px;
+    background-color: #FFEECF;
+}
+
+textarea::placeholder{
+    color: rgba(99, 76, 55, 0.6);
+}
+
+
+.user_career_flexWrap{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.user_career_flexWrap p{
+    font-size: 15px;
+}
+
+textarea{
+    width: 290px;
+    height: 100px;
+    border: solid 3px #634C37;
+    margin-top: 16px;
+    border-radius: 4px;
+}
+
+.example_text{
+    font-size: 14px;
+    opacity: .7;
+    color: #634C37;
+    margin-top: 16px;
+}
+
+.career{
+    width: 290px;
+    height: 48px;
+    border: solid 3px #634C37;
+    margin-top: 16px;
+    border-radius: 4px;
+    padding-top: 10px;
+}
+
+.addBtn{
+    display: block;
+    width: 75px;
+    height: 32px;
+    border: solid 3px #634C37;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-size: 12px;
+    background-color: #FBBC05;
+    color: #634C37;
+    border-radius: 4px;
+}
+
+.ok_btn{
+    display: block;
+    width: 220px;
+    height: 56px;
+    border: solid 3px #634C37;
+    margin: 0 auto;
+    margin-top: 32px;
+    font-size: 24px;
+    box-shadow: 0px 2px 0px #634C37;
+    background-color: #B8D682;
+    border-radius: 4px;
+}
+
+.ok_btn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #634C37;
+    padding: 6px 0px;
+}
+
+
+

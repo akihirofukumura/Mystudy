@@ -10,7 +10,7 @@ body {
 }
 
 .background{
-    background: url(../images/background_img.png);
+    background: url(../img/bgDecolation.png);
     background-size: contain;
     /* height: 100vh; */
     height: 100%;

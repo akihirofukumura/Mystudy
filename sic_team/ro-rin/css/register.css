@@ -12,7 +12,7 @@ body {
 
 
 .background{
-    background: url(../images/background_img.png);
+    background: url(../img/bgDecolation.png);
     background-size: contain;
     /* height: 100vh; */
     height: 100%;
@@ -28,24 +28,35 @@ body {
     color: #634C37;
     letter-spacing: 5px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-bottom: 72px;
 }
 
-.text{
-    /* border: tomato 1px solid; */
-    margin-top: 72px;
-    text-align: center;
+.input_wrap{
+    position: relative;
 }
 
 .person_icon{
     position: absolute;
-    margin-left: 40px;
-    margin-top: 4px;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    margin: auto;
+}
+
+.lock_icon{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    margin: auto;
 }
 
 .name{
-    text-align: center;
+    display: block;
+    margin: 0 auto;
     width: 320px;
     height: 40px;
+    padding-left: 48px;
     /* padding: 73px; */
     border: #634C37 2px solid;
     background-color: #FFFF;
@@ -55,9 +66,11 @@ body {
 }
 
 .password{
-    text-align: center;
+    display: block;
+    margin: 0 auto;
     width: 320px;
     height: 40px;
+    padding-left: 48px;
     /* padding: 73px; */
     border: #634C37 2px solid;
     background-color: #FFFF;
@@ -67,11 +80,6 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.lock_icon{
-    position: absolute;
-    margin-top: -37px;
-    margin-left: 74px;
-}
 
 .next{
     /* border: tomato 1px solid; */

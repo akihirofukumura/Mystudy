@@ -10,7 +10,7 @@ body {
 }
 
 .Background {
-    background: url(../images/background_img.png);
+    background: url(../img/bgDecolation.png);
     background-size: contain;
     /* height: 100vh; */
     height: 100%;
@@ -25,7 +25,6 @@ body {
 }
 
 .Mail {
-    text-align: center;
     width: 320px;
     height: 40px;
     /* padding: 73px; */
@@ -35,6 +34,7 @@ body {
     border-radius: 2px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 14px;
+    padding-left: 48px;
 }
 
 
