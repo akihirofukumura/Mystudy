@@ -8,7 +8,20 @@ a {
   text-decoration: none;
 }
 
+/* ここからheader部分 */
+header {
+  border: tomato 1px solid;
+}
+
 header > h1 {
   color: #734e30;
   font-size: 2em;
+}
+
+header > ul {
+  float: right;
+}
+
+header > ul li {
+  float: left;
 }
