@@ -52,7 +52,16 @@ header > ul li a {
   position: relative;
 }
 
-.mainvisual > h2 {
+.mainvisual .mainText01 {
+  font-size: 4.5em;
+  margin: 350px 50px;
   position: absolute;
   color: aquamarine;
+}
+
+.mainvisual .mainText02 {
+  position: absolute;
+  color: beige;
+  font-size: 1.5em;
+  margin: 410px 55px;
 }
