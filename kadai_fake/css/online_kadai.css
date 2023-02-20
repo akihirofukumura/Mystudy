@@ -56,12 +56,26 @@ header > ul li a {
   font-size: 4.5em;
   margin: 350px 50px;
   position: absolute;
-  color: aquamarine;
+  color: rgb(223, 160, 50);
+}
+
+.mainvisual .mainText01 span {
+  color: #734e30;
 }
 
 .mainvisual .mainText02 {
   position: absolute;
-  color: beige;
+  color: #ffee;
   font-size: 1.5em;
-  margin: 410px 55px;
+  margin: 415px 55px;
+}
+
+.mainvisual a {
+  color: #ffee;
+  font-size: 1.5em;
+  /* border: tomato 1px solid; */
+  padding: 12px;
+  position: absolute;
+  margin: 450px 55px;
+  background-color: #333;
 }
