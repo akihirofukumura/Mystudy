@@ -279,7 +279,7 @@ header > ul li a {
   font-size: 1.5em;
 }
 
-/* ここからプロデュースの項目 */
+/* ここから割引の項目 */
 .discountWrap {
   width: 70%;
   height: 400px;
@@ -316,4 +316,178 @@ header > ul li a {
   padding: 10px;
   color: #333;
   line-height: 7;
+}
+
+/* ここから商品セール項目 */
+.shopTextWrap {
+  width: 350px;
+  height: auto;
+  /* border: tomato 1px solid; */
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.shopTextWrap span {
+  font-size: 1.5em;
+  color: #c7a17a;
+}
+
+.shopTextWrap h2 {
+  color: #312a26;
+  font-size: 2em;
+}
+
+.shopTextWrap hr {
+  color: #c7a17a;
+}
+
+.coffeeWrap02 {
+  /* border: tomato 1px solid; */
+  width: 80%;
+  height: 370px;
+  margin: 30px auto;
+  padding: 0 40px;
+}
+
+/* ここから項目選択部分 */
+
+.itemWrap {
+  width: 70%;
+  height: 630px;
+  margin: 30px auto;
+  border: tomato 1px solid;
+}
+
+.item01 {
+  width: 45%;
+  height: 250px;
+  border: tomato 1px solid;
+  background-image: url(../img/ads-img3.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 40px;
+  float: left;
+  position: relative;
+}
+
+.item01 div {
+  /* border: tomato 1px solid; */
+  width: 200px;
+  height: 150px;
+  margin-top: 60px;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.item01 div h3 {
+  color: #ffee;
+  font-size: 2.5em;
+}
+
+.item01 div a {
+  line-height: 3;
+  color: #ffee;
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin-left: 3px;
+}
+
+.item02 {
+  width: 45%;
+  height: 250px;
+  border: tomato 1px solid;
+  background-image: url(../img/ads-img4.jpg);
+  background-size: cover;
+  background-position: center;
+  float: right;
+  margin-right: 40px;
+}
+.item02 div {
+  /* border: tomato 1px solid; */
+  width: 250px;
+  height: 150px;
+  margin-top: 60px;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.item02 div h3 {
+  color: #ffee;
+  font-size: 2.5em;
+}
+
+.item02 div a {
+  line-height: 3;
+  color: #ffee;
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin-left: 3px;
+}
+.item03 {
+  width: 45%;
+  height: 250px;
+  border: tomato 1px solid;
+  background-image: url(../img/ads-img5.jpg);
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.item03 div {
+  /* border: tomato 1px solid; */
+  width: 350px;
+  height: 150px;
+  margin-top: 60px;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.item03 div h3 {
+  color: #ffee;
+  font-size: 2.5em;
+}
+
+.item03 div a {
+  line-height: 3;
+  color: #ffee;
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin-left: 3px;
+}
+
+.item04 {
+  width: 45%;
+  height: 250px;
+  border: tomato 1px solid;
+  background-image: url(../img/ads-img6.jpg);
+  background-size: cover;
+  background-position: center;
+  float: right;
+  margin-right: 40px;
+  margin-top: 50px;
+}
+
+.item04 div {
+  /* border: tomato 1px solid; */
+  width: 350px;
+  height: 150px;
+  margin-top: 60px;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.item04 div h3 {
+  color: #ffee;
+  font-size: 2.5em;
+}
+
+.item04 div a {
+  line-height: 3;
+  color: #ffee;
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin-left: 3px;
 }
