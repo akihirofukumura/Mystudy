@@ -151,9 +151,130 @@ header > ul li a {
 }
 
 .shopTextWrap h2 {
+  color: #312a26;
   font-size: 2em;
 }
 
 .shopTextWrap hr {
   color: #c7a17a;
+}
+
+/* ここからコーヒー（販売用）の写真 */
+.coffeeWrap {
+  /* border: tomato 1px solid; */
+  width: 80%;
+  height: 730px;
+  margin: 30px auto;
+  padding: 0 40px;
+}
+
+.coffeeImg01 {
+  width: 300px;
+  /* border: tomato 1px solid; */
+  text-align: left;
+  float: left;
+}
+
+.coffeeImg01 img {
+  width: 300px;
+  /* border: tomato 1px solid; */
+}
+
+.coffeeImg01 h3 {
+  color: #312a26;
+  font-size: 1.5em;
+}
+
+.coffeeImg01 span {
+  color: #312a26;
+
+  font-size: 1.5em;
+}
+
+.coffeeImg01 p {
+  color: #312a26;
+  font-size: 1.5em;
+}
+
+.coffeeImg02 {
+  width: 300px;
+  /* border: tomato 1px solid; */
+  text-align: left;
+  float: left;
+  margin-left: 20px;
+}
+
+.coffeeImg02 img {
+  width: 300px;
+  /* border: tomato 1px solid; */
+}
+
+.coffeeImg02 h3 {
+  color: #312a26;
+  font-size: 1.5em;
+}
+
+.coffeeImg02 span {
+  color: #312a26;
+  font-size: 1.5em;
+}
+
+.coffeeImg02 p {
+  color: #312a26;
+  font-size: 1.5em;
+}
+
+/* ここから2段目 */
+.coffeeImg03 {
+  width: 300px;
+  /* border: tomato 1px solid; */
+  text-align: left;
+  float: left;
+  margin-top: 20px;
+}
+
+.coffeeImg03 img {
+  width: 300px;
+  /* border: tomato 1px solid; */
+}
+
+.coffeeImg03 h3 {
+  font-size: 1.5em;
+}
+
+.coffeeImg03 span {
+  font-size: 1.5em;
+}
+
+.coffeeImg03 p {
+  font-size: 1.5em;
+}
+
+.coffeeImg04 {
+  width: 300px;
+  /* border: tomato 1px solid; */
+  text-align: left;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.coffeeImg04 img {
+  width: 300px;
+  /* border: tomato 1px solid; */
+}
+
+.coffeeImg04 h3 {
+  color: #312a26;
+  font-size: 1.5em;
+}
+
+.coffeeImg04 span {
+  color: #312a26;
+  font-size: 1.5em;
+}
+
+.coffeeImg04 p {
+  color: #312a26;
+  font-size: 1.5em;
 }
