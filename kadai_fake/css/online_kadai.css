@@ -357,13 +357,13 @@ header > ul li a {
   width: 70%;
   height: 630px;
   margin: 30px auto;
-  border: tomato 1px solid;
+  /* border: tomato 1px solid; */
 }
 
 .item01 {
   width: 45%;
   height: 250px;
-  border: tomato 1px solid;
+  /* border: tomato 1px solid; */
   background-image: url(../img/ads-img3.jpg);
   background-size: cover;
   background-position: center;
@@ -397,7 +397,7 @@ header > ul li a {
 .item02 {
   width: 45%;
   height: 250px;
-  border: tomato 1px solid;
+  /* border: tomato 1px solid; */
   background-image: url(../img/ads-img4.jpg);
   background-size: cover;
   background-position: center;
@@ -428,7 +428,7 @@ header > ul li a {
 .item03 {
   width: 45%;
   height: 250px;
-  border: tomato 1px solid;
+  /* border: tomato 1px solid; */
   background-image: url(../img/ads-img5.jpg);
   background-size: cover;
   background-position: center;
@@ -461,7 +461,7 @@ header > ul li a {
 .item04 {
   width: 45%;
   height: 250px;
-  border: tomato 1px solid;
+  /* border: tomato 1px solid; */
   background-image: url(../img/ads-img6.jpg);
   background-size: cover;
   background-position: center;
@@ -490,4 +490,49 @@ header > ul li a {
   font-size: 1.5em;
   text-decoration: underline;
   margin-left: 3px;
+}
+
+.formWrap {
+  width: 70%;
+  height: 600px;
+  border: tomato 1px solid;
+  margin: 20px auto;
+  /* background-color: #f2f1ef; */
+}
+
+.formLeft {
+  width: 45%;
+  height: 600px;
+  border: tomato 1px solid;
+  background-color: #dcdad8;
+}
+
+.formLeft label {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 25px;
+  color: #333;
+}
+
+.formLeft .holder {
+  background-color: #ffff;
+  height: 30px;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+.formLeft p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+.formLeft .number {
+  background-color: #ffff;
+  width: 458px;
+  height: 30px;
+  display: block;
+  margin-left: 25px;
+  margin-top: 10px;
+  padding: 10px;
 }
