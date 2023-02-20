@@ -80,6 +80,7 @@ header > ul li a {
   background-color: #333;
 }
 
+/* ここからセレクト画像 */
 .selectWrap {
   width: 80%;
   height: 400px;
@@ -95,6 +96,21 @@ header > ul li a {
   display: inline-block;
 }
 
+.selectImg01 h3 {
+  font-size: 2.5em;
+  color: #ffee;
+  margin-top: 140px;
+  margin-left: 50px;
+}
+
+.selectImg01 p a {
+  font-size: 1.5em;
+  color: #ffee;
+  line-height: 5;
+  margin-left: 50px;
+  text-decoration: underline;
+}
+
 .selectImg02 {
   width: 650px;
   height: 400px;
@@ -102,4 +118,19 @@ header > ul li a {
   /* background-position: right; */
   background-size: cover;
   float: right;
+}
+
+.selectImg02 h3 {
+  font-size: 2.5em;
+  color: #ffee;
+  margin-top: 140px;
+  margin-left: 50px;
+}
+
+.selectImg02 p a {
+  font-size: 1.5em;
+  color: #ffee;
+  line-height: 5;
+  margin-left: 50px;
+  text-decoration: underline;
 }
