@@ -79,3 +79,27 @@ header > ul li a {
   margin: 450px 55px;
   background-color: #333;
 }
+
+.selectWrap {
+  width: 80%;
+  height: 400px;
+  border: tomato 1px solid;
+  margin: 60px auto;
+}
+
+.selectImg01 {
+  width: 650px;
+  height: 400px;
+  background-image: url(../img/ads-img1.jpg);
+  background-position: left;
+  display: inline-block;
+}
+
+.selectImg02 {
+  width: 650px;
+  height: 400px;
+  background-image: url(../img/ads-img2.jpg);
+  /* background-position: right; */
+  background-size: cover;
+  float: right;
+}
