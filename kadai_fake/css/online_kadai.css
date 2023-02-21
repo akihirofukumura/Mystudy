@@ -505,6 +505,7 @@ header > ul li a {
   height: 500px;
   /* border: tomato 1px solid; */
   background-color: #dcdad8;
+  display: inline-block;
 }
 
 .formLeft .label {
@@ -578,4 +579,13 @@ header > ul li a {
 
 .formLeft .radio03_night {
   font-size: 1.2em;
+}
+
+.formRight {
+  width: 45%;
+  height: 500px;
+  /* display: inline-block; */
+  /* border: tomato 1px solid; */
+  background-color: #dcdad8;
+  float: right;
 }
