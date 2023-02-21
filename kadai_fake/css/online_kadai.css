@@ -494,7 +494,7 @@ header > ul li a {
 
 .formWrap {
   width: 70%;
-  height: 600px;
+  height: 500px;
   border: tomato 1px solid;
   margin: 20px auto;
   /* background-color: #f2f1ef; */
@@ -502,12 +502,12 @@ header > ul li a {
 
 .formLeft {
   width: 45%;
-  height: 600px;
-  border: tomato 1px solid;
+  height: 500px;
+  /* border: tomato 1px solid; */
   background-color: #dcdad8;
 }
 
-.formLeft label {
+.formLeft .label {
   display: inline-block;
   margin-top: 10px;
   margin-left: 25px;
@@ -535,4 +535,47 @@ header > ul li a {
   margin-left: 25px;
   margin-top: 10px;
   padding: 10px;
+}
+
+.formLeft .time {
+  display: block;
+  margin-top: 30px;
+  margin-left: 210px;
+  font-size: 1.2em;
+}
+
+.radio01 {
+  margin-top: 10px;
+  margin-left: 150px;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+
+.formLeft .radio01_morning {
+  font-size: 1.2em;
+}
+
+.radio02 {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+
+.formLeft .radio02_afternoon {
+  font-size: 1.2em;
+}
+
+.radio03 {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+
+.formLeft .radio03_night {
+  font-size: 1.2em;
 }

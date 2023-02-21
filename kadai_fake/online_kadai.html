@@ -198,7 +198,7 @@
       </div>
       <div class="formWrap">
         <form action="" method="post" class="formLeft">
-          <label for="name">Full Name</label>
+          <label for="name" class="label">Full Name</label>
           <input
             type="text"
             placeholder="List Name,Frist Name"
@@ -206,7 +206,7 @@
             id="name"
             class="holder"
           />
-          <label for="email">Email Address</label>
+          <label for="email" class="label">Email Address</label>
           <input
             type="email"
             placeholder="maonirmail.com"
@@ -214,7 +214,7 @@
             class="holder"
             id="email"
           />
-          <label for="tel">Phone Number</label>
+          <label for="tel" class="label">Phone Number</label>
           <input
             type="tel"
             placeholder="665642442"
@@ -223,7 +223,7 @@
             id="tel"
           />
           <p>Reservation Detils</p>
-          <label for="Number">Number of Guest</label>
+          <label for="Number" class="label">Number of Guest</label>
           <input
             type="number"
             placeholder="1"
@@ -233,8 +233,15 @@
             min="1"
             max="more than 4"
           />
-          <label for="month">Reservation Details</label>
+          <label for="month" class="label">Reservation Details</label>
           <input type="month" size="80" class="number" id="month" />
+          <label for="Time" class="time">Reservation Time</label>
+          <input type="radio" class="radio01" id="morning" />
+          <label for="morning" class="radio01_morning">morning</label>
+          <input type="radio" class="radio02" id="afternoon" />
+          <label for="afternoon" class="radio02_afternoon">afternoon</label>
+          <input type="radio" class="radio03" id="night" />
+          <label for="night" class="radio03_night">night</label>
         </form>
       </div>
     </main>
