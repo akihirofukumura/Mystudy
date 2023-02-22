@@ -790,3 +790,22 @@ header > ul li a {
 }
 
 /* ここからfooter */
+footer div {
+  height: 60px;
+  background-color: #19100f;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer h3 {
+  color: #dcdad8;
+}
+
+footer figure img {
+  width: 20px;
+}
+
+footer small {
+  color: #dcdad8;
+}
