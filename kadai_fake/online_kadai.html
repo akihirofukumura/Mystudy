@@ -243,7 +243,39 @@
           <input type="radio" class="radio03" id="night" />
           <label for="night" class="radio03_night">night</label>
         </form>
-        <form action="" method="post" class="formRight"></form>
+        <form action="" method="post" class="formRight">
+          <label for="Request" class="label">Additional Request</label>
+          <textarea name="Request" id="Request" cols="80" rows="10"></textarea>
+          <h3>PAYMENT</h3>
+          <figure>
+            <img
+              src="img/reservation-cards.png"
+              alt="クレジットなどの支払い種類"
+            />
+          </figure>
+          <p>Payment Accepted Cards</p>
+          <label for="name" class="label">Full Name</label>
+          <input
+            type="text"
+            placeholder="Ken Doe"
+            size="80"
+            id="name"
+            class="holder"
+          />
+          <label for="Number" class="label">Credit Card Number</label>
+          <input
+            type="number"
+            placeholder="12234776"
+            size="80"
+            id="Number"
+            class="number"
+          />
+          <input type="checkbox" class="checkbox" id="checkbox" />
+          <label for="checkbox" class="checkbox_label"
+            >I agree the terms and conditions</label
+          >
+          <input type="submit" value="SEND" class="submit" size="60" />
+        </form>
       </div>
     </main>
     <footer></footer>

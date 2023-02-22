@@ -589,3 +589,76 @@ header > ul li a {
   background-color: #dcdad8;
   float: right;
 }
+
+.formRight .label {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 38px;
+  /* font-size: 2em; */
+  color: #333;
+}
+
+.formRight textarea {
+  display: block;
+  background-color: #ffff;
+  margin: 5px auto;
+}
+
+.formRight h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.formRight figure img {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+}
+
+.formRight figure {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.formRight p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.formRight .holder {
+  background-color: #ffff;
+  height: 30px;
+  padding: 10px;
+  margin: 5px 36px;
+}
+
+.formRight .number {
+  background-color: #ffff;
+  width: 462px;
+  height: 30px;
+  display: block;
+  margin-left: 37px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.formRight .checkbox {
+  width: 20px;
+  height: 10px;
+  margin-top: 12px;
+  margin-left: 35px;
+  display: inline-block;
+}
+
+.formRight .checkbox_label {
+  font-size: 1.2em;
+}
+
+.formRight .submit {
+  display: block;
+  background-color: #c7a17a;
+  width: 462px;
+  height: 30px;
+  font-size: 10px;
+  margin: 5px 37px;
+}
