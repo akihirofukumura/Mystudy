@@ -495,7 +495,7 @@ header > ul li a {
 .formWrap {
   width: 70%;
   height: 500px;
-  border: tomato 1px solid;
+  /* border: tomato 1px solid; */
   margin: 20px auto;
   /* background-color: #f2f1ef; */
 }
@@ -662,3 +662,131 @@ header > ul li a {
   font-size: 10px;
   margin: 5px 37px;
 }
+
+.endBg {
+  /* border: tomato 1px solid; */
+  width: 100%;
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/footer-img.jpg);
+  display: flex;
+}
+
+.endWrap01 {
+  /* border: tomato 1px solid; */
+  width: 180px;
+  padding-top: 10px;
+  margin-left: 280px;
+}
+.endBg .openText {
+  width: 250px;
+  font-size: 1.6em;
+  /* border: tomato 1px solid; */
+  color: #dcdad8;
+  /* margin-left: 250px; */
+  padding-top: 30px;
+  text-transform: uppercase;
+  /* display: inline-block; */
+}
+
+.endBg table {
+  width: 250px;
+  height: 120px;
+  margin-top: 10px;
+  /* margin-left: 250px; */
+  /* border: tomato 1px solid; */
+  display: inline;
+}
+
+.endBg table th {
+  /* border: tomato 1px solid; */
+  color: #dcdad8;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.endBg table th:nth-of-type(2),
+.endBg table td:nth-of-type(2) {
+  text-align: center;
+  padding-left: 0;
+}
+
+.endBg table th:first-child {
+  text-align: center;
+}
+
+.endBg td {
+  text-align: left;
+  /* border: 1px solid #000; */
+  color: #dcdad8;
+  padding-left: 5px;
+}
+
+.endBg .endWrap02 {
+  width: 200px;
+  padding-top: 10px;
+  margin-left: 80px;
+  /* border: tomato 1px solid; */
+}
+
+.endBg .postText {
+  color: #dcdad8;
+  /* border: tomato 1px solid; */
+  width: 240px;
+  font-size: 1.6em;
+  /* border: tomato 1px solid; */
+  color: #dcdad8;
+  padding-top: 30px;
+  /* margin: 0 250px; */
+  text-transform: uppercase;
+}
+
+.endBg h4 {
+  width: 200px;
+  /* border: tomato 1px solid; */
+  color: #dcdad8;
+  margin-top: 2px;
+  font-size: 1em;
+}
+
+.endBg p {
+  color: #c7a17a;
+}
+
+.endBg .endWrap03 {
+  width: 200px;
+  padding-top: 10px;
+  margin-left: 100px;
+  /* border: tomato 1px solid; */
+}
+
+.endWrap03 .contact {
+  padding-top: 15px;
+}
+
+.endWrap03 input {
+  height: 25px;
+  margin-top: 10px;
+  background-color: #dcdad8;
+}
+
+.endWrap03 a {
+  /* width: 20px; */
+  padding: 8px;
+  color: #333;
+  background-color: #c7a17a;
+}
+
+.endBg .endWrap04 {
+  width: 200px;
+  padding-top: 10px;
+  margin-left: 100px;
+  /* border: tomato 1px solid; */
+}
+
+.endWrap04 .locationText {
+  padding-top: 20px;
+}
+
+/* ここからfooter */
