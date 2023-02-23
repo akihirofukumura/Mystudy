@@ -1,3 +1,30 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  height: 100%;
+}
+
+.mainVisual {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/jojo_01.jpg);
+  background-color: #d7409b;
+  border: tomato 1px solid;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+.mainVisual h1 {
+  font-size: 6em;
+  font-family: "Bizareadventure", "sanserif";
+  margin-right: 90px;
+  margin-top: 30px;
+}
+
+.mainVisual h2 {
+  font-size: 5em;
+  margin-right: 40px;
+  margin-top: 400px;
+}
