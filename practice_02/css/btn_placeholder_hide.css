@@ -1,0 +1,26 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+body div {
+  width: 200px;
+  /* border: tomato 1px solid; */
+  margin: 440px auto;
+}
+
+body div button {
+  opacity: 0;
+}
+
+input:not(:placeholder-shown) + button {
+  opacity: 1;
+}
+
+/* ここから解説 */
+/* １.「placeholder-shown」はplaceholderが表示されている要素を示す */
+/* ２.not()という疑似クラスに「placeholder-shown」を入れることでplaceholderが見えていないときの指定になる */
+/* ３.「+ button」 が「隣接」を意味する「+」なので 「placeholderが見えていないとき隣接しているbuttonタグを表示する(opacity:1)」*/
