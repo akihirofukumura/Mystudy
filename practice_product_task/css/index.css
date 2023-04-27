@@ -1,0 +1,50 @@
+.box_wrap {
+  border: tomato 4px solid;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box_1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.box_2 {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+}
+
+.box_3 {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+}
+
+.box_4 {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
+
+.box_5 {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+}
+
+.btn_wrap {
+  border: darkorange 1px solid;
+  width: 100px;
+  margin: 50px auto;
+}
+
+.btn {
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
