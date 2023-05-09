@@ -15,6 +15,7 @@ html {
 }
 
 .task_submit {
+  border: black 2px solid;
   height: 2rem;
 }
 
