@@ -7,7 +7,7 @@ const taskList = document.getElementsByClassName("task_list")[0];
 const addTasks = (task) => {
   // 入力したタスクを追加・表示
   const listItem = document.createElement("li");
-  const showItem = document.appendChild(listItem);
+  const showItem = taskList.appendChild(listItem);
   showItem.innerHTML = task;
 
   // 入力したタスクを削除するためのボタン
@@ -20,10 +20,17 @@ const addTasks = (task) => {
     evt.preventDefault();
     deleteTasks(deleteButton);
   });
-
-  // 削除ボタンに機能をつける
-  const deleteTasks = (deleteButton) => {
-    const chosenTask = deleteButton.closest("li");
-    taskList.removeChild(chosenTask);
-  };
 };
+// 削除ボタンに機能をつける
+const deleteTasks = (deleteButton) => {
+  const chosenTask = deleteButton.closest("li");
+  taskList.removeChild(chosenTask);
+};
+
+// 追加ボタンを付与
+taskSubmit.addEventListener("click", (evt) => {
+  evt.preventDefault();
+  const task = taskValue.value;
+  addTasks(task);
+  taskValue.value = "";
+});
