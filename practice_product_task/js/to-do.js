@@ -1,6 +1,13 @@
-const btn = document.querySelector("button");
-const toDo = document.querySelector("li");
+const btn = document.querySelectorAll("button");
 
-btn.addEventListener("click", () => {
-  toDo.classList.add("done");
+console.log(btn);
+
+btn.forEach((button) => {
+  btn.addEventListener("click", () => {
+    const toDo = btn.closet("li");
+    toDo.classList.add("done");
+  });
 });
+// btn.addEventListener("click", () => {
+//   toDo.classList.add("done");
+// });
