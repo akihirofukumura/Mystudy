@@ -14,11 +14,14 @@
   </head>
   <body>
     <h1>To - Do リスト</h1>
-    <ul>
-      <li>Todo 1 <button>Done</button></li>
-      <li>Todo 2 <button>Done</button></li>
-      <li>Todo 3 <button>Done</button></li>
-    </ul>
+    <form>
+      <input type="text" class="task_value" />
+      <button class="task_submit" type="button">Add</button>
+    </form>
+    <div id="table">
+      <h2>Current Tasks</h2>
+      <ul class="task_list"></ul>
+    </div>
     <script src="js/to-do.js"></script>
   </body>
 </html>
